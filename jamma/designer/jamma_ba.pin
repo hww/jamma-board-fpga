@@ -1,0 +1,133 @@
+; HEADER
+; FILEID PIN D:/Actelprj/jamma/designer/jamma_ba.pin 70169fc5
+; CHECKSUM 70169fc5
+; PROGRAM Designer Series (tm) Development System
+; VERSION R1-2002 SP1 4.5.1.15
+; ALSMAJORREV 4
+; ALSMINORREV 5
+; ALSPATCHREV 1
+; VAR DESIGN jamma
+; VAR FAM ex
+; VAR FAMILY 5500
+; VAR DIE 5525
+; VAR PACKAGE tqfp100
+; VAR IFIKEEPER <NOT-SET>
+; VAR RESTRICTTRSTPIN NO
+; VAR UNCLAMP_UNUSED_IOS 0
+; VAR RESERVE_PROGRAMMING_PINS 1
+; VAR RESTRICTPROBEPINS 1
+; VAR RESTRICTJTAGPINS YES
+; VAR SPEED STD
+; VAR TEMPR COM
+; VAR VOLTR COM
+; VAR SI_SECURITY_KEY 
+; VAR SIG 
+; VAR FUSCHECKSUM 486E
+; VAR PROGSECFUSE <NOT-SET>
+; VAR PINCHECKSUM 4856381e_7b80d8f4
+; VAR ACT1_special_IO_pins_used No
+; ENDHEADER
+DEF jamma.
+PIN clk;
+  PIN:39.
+PIN nReset;
+  PIN:38.
+PIN da<0>;
+  PIN:83.
+PIN da<1>;
+  PIN:84.
+PIN da<2>;
+  PIN:85.
+PIN nDiow;
+  PIN:88.
+PIN nDior;
+  PIN:87.
+PIN nCS0;
+  PIN:80.
+PIN nCS1;
+  PIN:81.
+PIN iordy;
+  PIN:86.
+PIN dd<0>;
+  PIN:59.
+PIN dd<1>;
+  PIN:60.
+PIN dd<2>;
+  PIN:61.
+PIN dd<3>;
+  PIN:62.
+PIN dd<4>;
+  PIN:63.
+PIN dd<5>;
+  PIN:64.
+PIN dd<6>;
+  PIN:65.
+PIN dd<7>;
+  PIN:66.
+PIN CoinCounter<1>;
+  PIN:45.
+PIN CoinCounter<2>;
+  PIN:46.
+PIN CoinLockout<1>;
+  PIN:47.
+PIN CoinLockout<2>;
+  PIN:48.
+PIN P<0>;
+  PIN:93.
+PIN P<1>;
+  PIN:94.
+PIN P<2>;
+  PIN:95.
+PIN P<3>;
+  PIN:96.
+PIN P<4>;
+  PIN:97.
+PIN P<5>;
+  PIN:98.
+PIN P<6>;
+  PIN:99.
+PIN P<7>;
+  PIN:6.
+PIN P<8>;
+  PIN:10.
+PIN P<9>;
+  PIN:11.
+PIN P<10>;
+  PIN:12.
+PIN P<11>;
+  PIN:13.
+PIN P<12>;
+  PIN:14.
+PIN P<13>;
+  PIN:15.
+PIN P<14>;
+  PIN:17.
+PIN P<15>;
+  PIN:18.
+PIN P<16>;
+  PIN:19.
+PIN P<17>;
+  PIN:21.
+PIN P<18>;
+  PIN:22.
+PIN P<19>;
+  PIN:25.
+PIN P<20>;
+  PIN:26.
+PIN P<21>;
+  PIN:27.
+PIN P<22>;
+  PIN:28.
+PIN P<23>;
+  PIN:29.
+PIN P<24>;
+  PIN:30.
+PIN P<25>;
+  PIN:31.
+PIN P<26>;
+  PIN:32.
+PIN P<27>;
+  PIN:33.
+PIN P<28>;
+  PIN:41.
+END.

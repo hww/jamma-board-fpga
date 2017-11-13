@@ -1,0 +1,105 @@
+#add_file options
+add_file -verilog "f:/synplicity/Synplify_71A/LIB/actel/EX.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_clock.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_pix.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_scan.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/fextractor.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/quad_tmr.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_cookie.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_measure.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_cpu.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_mem.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_syncsinv.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_sys.v"
+add_file -verilog "F:/Actelprj/crtv10/hdl/crt_top.v"
+
+#device options
+set_option -technology EX
+
+set_option -vlog_std v95
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+project -result_file "F:/Actelprj/crtv10/hdl/crt_top.edn"

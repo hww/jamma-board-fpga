@@ -1,0 +1,10 @@
+WaveFormer Lite simulation log created at Thu Dec 19 19:23:13 2002
+Beginning Compile
+Beginning Phase I
+Compiling source file: d:\actelprj\jamma\hdl\interface.v
+Finished Phase I
+Entering Phase II...
+Finished Phase II
+Highest level modules:   my16COUNTER,    my4COUNTER,    myNOISE,    my4BREG,    myDFF,    myDFFE,    myDFFE2,    frontsExtractor, 
+   revCounter,    mux_16_1,    mux_16_6,    lcel, 
+Compile Complete

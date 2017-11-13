@@ -1,0 +1,105 @@
+m255
+o
+cModel Technology
+dD:\Actelprj\JamaOneChip\simulation
+vcgaega
+Ifb4f1XCHnHeBVWOkaI0920
+VeImIK[2RK:OlJ][V5eRH42
+w1040134856
+FD:/Actelprj/JamaOneChip/hdl/cgaega.v
+L0 7
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vjamma
+I:VWbljVb77OA`G<]`n_E@0
+VlY9I09V?;f7[@Ean6Xg843
+w1040134856
+FD:/Actelprj/JamaOneChip/hdl/jamma.v
+L0 118
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vjammaone
+IF_m2WhdNGLeTeQUdZk;A:0
+Vk2Md]n1><JbcjcIRz=JLT3
+w1040134856
+FD:/Actelprj/JamaOneChip/hdl/jammaone.v
+L0 6
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vmemory
+I@NDOX8YCczTcnQkA]2Z683
+VLYg`=VKENnfVjZQNImg4C2
+w1040134858
+FD:/Actelprj/JamaOneChip/hdl/memory.v
+L0 7
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vQUAD_COUNTER
+In`@mcjVi0=Aoa>QjLHXM<3
+V7BSiicH5kc]0cRHHNi[<d1
+w1040134858
+FD:/Actelprj/JamaOneChip/hdl/quad_counter.v
+L0 5
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r
+vscanconv
+Ik2e7Rd2FEZ:b`SzHhjA@m3
+Vl=UcofQMaDlYHkacCZPJd3
+w1040134858
+FD:/Actelprj/JamaOneChip/hdl/scanconv.v
+L0 6
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vstimulus
+I9nBSSWDL:<SR0J9<:i[U@1
+VCJQ>XZF6DWg<i=[HXAHG91
+w1040154580
+FD:/Actelprj/JamaOneChip/stimulus/egavga.v
+L0 2
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vtb_clock_inverted_minmax
+I??UUgc7Y[3fbXUGL::0aS3
+VH:i^om6^^NC54?]2Be<:01
+w1040142246
+FD:/Actelprj/JamaOneChip/stimulus/egavga.v
+L0 261
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vtb_clock_minmax
+IjHX1bS7@08>JD1ko^F_OQ1
+V^Ho=2N><9PIGQc<bRkVKb3
+w1040154580
+FD:/Actelprj/JamaOneChip/stimulus/egavga.v
+L0 160
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0
+vvga
+I9PAQVMKCBK2cEXiU893Oe0
+V8ZU<Uf29K^3VO`?HQ1Bi03
+w1040134858
+FD:/Actelprj/JamaOneChip/hdl/vga.v
+L0 15
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work presynth -O0

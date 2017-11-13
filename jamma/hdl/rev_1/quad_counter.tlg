@@ -1,0 +1,12 @@
+Selecting top level module jamma
+Synthesizing module QUAD_COUNTER
+Synthesizing module jamma
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":356:10:356:35|Incomplete sensitivity list - assuming completeness
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":401:19:401:21|Referenced variable nce is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":399:19:399:22|Referenced variable nce1 is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":408:10:408:17|Incomplete sensitivity list - assuming completeness
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":411:38:411:38|Referenced variable P is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":419:27:419:35|Referenced variable ballCnt0q is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":420:28:420:36|Referenced variable ballCnt1q is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":421:28:421:36|Referenced variable ballCnt2q is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":422:28:422:36|Referenced variable ballCnt3q is not in sensitivity list

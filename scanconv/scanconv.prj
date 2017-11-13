@@ -1,0 +1,52 @@
+KEY HDLTechnology "Verilog"
+KEY VendorTechnology "Actel eX Technology"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "scanconv"
+LIST BlockViewMap
+ENDLIST
+LIST BlockSymbols
+ENDLIST
+LIST Schematics
+ENDLIST
+LIST HDLFiles
+VALUE "hdl\scanconv.v"
+VALUE "hdl\vga.v"
+ENDLIST
+LIST GENFiles
+ENDLIST
+LIST DesignerFiles
+VALUE "designer\cgaega.edn"
+VALUE "designer\cgaega.v"
+VALUE "designer\cgaega.adb"
+VALUE "designer\memory.edn"
+VALUE "designer\memory.v"
+VALUE "designer\vga.edn"
+VALUE "designer\vga.v"
+VALUE "designer\scanconv.edn"
+VALUE "designer\vga.adb"
+VALUE "designer\scanconv.v"
+VALUE "designer\scanconv.adb"
+VALUE "designer\scanconv.afm"
+VALUE "designer\scanconv.prb"
+ENDLIST
+LIST StimulusFiles
+VALUE "stimulus\egavga.btim"
+VALUE "stimulus\egavga.v"
+ENDLIST
+LIST RecentFile
+ENDLIST
+LIST StimulusAssociation
+scanconv,egavga.v
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=TRUE
+ReCompileVHDLPackage=FALSE
+IncludeWaveDo=FALSE
+Type=max
+RunTime=22000000ns
+Resolution=10ns
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+ENDLIST

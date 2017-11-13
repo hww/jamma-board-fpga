@@ -1,0 +1,10 @@
+WaveFormer Lite simulation log created at Tue Dec 17 21:48:24 2002
+Beginning Compile
+Beginning Phase I
+Compiling source file: D:\Actelprj\JamaOneChip\designer\jammaone.v
+Finished Phase I
+Entering Phase II...
+Finished Phase II
+Highest level modules:   jammaone,    scanconv,    cgaega,    vga,    memory,    jamma,    QUAD_COUNTER,    QUAD_COUNTER_3, 
+   QUAD_COUNTER_2,    QUAD_COUNTER_1, 
+Compile Complete

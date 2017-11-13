@@ -1,0 +1,21 @@
+Starting:  f:\synplicity\Synplify_71A\bin\mbin\synplify.exe
+Version:   7.1A       
+Date:      Mon Feb 03 05:27:00 2003
+Arguments: D:\Actelprj\jamma\hdl\jamma.prj
+License: synplify_pc
+
+
+Running synthesis on jamma:hdl
+
+log file: "D:\Actelprj\jamma\hdl\jamma.srr"
+
+Running verilog Syntax check...
+Verilog Compiler Completed
+
+Verilog Compiler: 0 errors, 0 warnings, 0 notes
+
+EX Mapper Completed
+
+EX Mapper: 0 errors, 0 warnings, 6 notes
+
+Total: 0 errors, 0 warnings, 6 notes

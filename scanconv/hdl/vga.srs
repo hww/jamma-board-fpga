@@ -1,0 +1,41 @@
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version 7.1, Build 158R from Synplicity, Inc.
+# Copyright 1994-1999 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Mon Dec 16 22:03:25 2002
+#
+#
+#OPTIONS:"|-ram|-ID:\\SYNPLICITY\\SYNPLIFY_71A\\lib|-v95|-autosm|-fid2|-sharing|on|-encrypt|-ui"
+#CUR:"D:\\SYNPLICITY\\SYNPLIFY_71A\\BIN\\C_VER.EXE":1019145910l
+#CUR:"D:\\synplicity\\Synplify_71A\\LIB\\actel\\EX.v":968156812l
+#CUR:"D:\\actelprj\\scanconv\\hdl\\vga.v":1040068988l
+f "D:\synplicity\Synplify_71A\LIB\actel\EX.v"; # file 0
+f "D:\actelprj\scanconv\hdl\vga.v"; # file 1
+@E@MR@44:6::(4g6:RsIF	oRPNCRPsFHDoN;
+PHR3#sPCHoDFR
+4;N3PRFosHhCNlRo"PN
+";
+@HR@44:U.:4::4U4OcRDO	RD
+	;
+@HR@.4:..:4::..4PnRHF8CR8PHC
+F;
+@HR@44:g.:4::4g4EnR#O$MR$E#M
+O;
+@HR@44:gg:4::4g.PdR#O$MR$P#M
+O;
+@FR@.4:dU:4::.d4PgR8:r(jP9R8:r(j
+9;
+@FR@.4:j.:4::.j4#6RNRPC#CNP;
+
+
+
+@HR@.4:4.:4::.44#nRN8PCRP#NC
+8;b@R@4(:d:dj:(R:6HRMPk_M4bCHGD9rdR4kM_GbHCdDr9HRbGrCDd
+9;b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R4@@::U4j4:U:86RVPVR8:r(jP9R8:r(jP9R8:rnjP9,HF8CR	OD;R
+b@:@4c46:66:c:R.cNPM8RP#NCNR#PbCRHDGCrRj9bCHGD9r4RGbHC.Dr9MRk4H_bGrCDd
+9;b@R@4.:c::4(c..:68RN8MRkdH_bGrCDd9:jRdkM_GbHCdDr:Rj9bCHGD:rdj09Rs;kC
+@bR@d4:(::jd6(:RV8VsHRbGrCDd9:jRGbHCdDr:Rj9k_MdbCHGD:rdjO9RDE	R#O$M;;
+C

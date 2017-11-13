@@ -1,0 +1,490 @@
+m255
+o
+cModel Technology
+dD:\Actelprj\jamma\simulation
+vdc
+IbRPD1XQ7iiRk7Kd4V6bZO3
+VWdPiDKAT]RI[U`GPocQz@2
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 48
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+vfrontsExtractor
+ITTIKIJE1h1b^z`_jX2JlE3
+Vdb2Ui7A_j^lQdaZE@`3;^0
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 805
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor
+vfrontsExtractor_1
+I8>6?81<3ezUP77j@=?I>c1
+V:^Z]CmRQ@gbc]_T3GIJKP2
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 820
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_1
+vfrontsExtractor_2
+I^UUV;Gag[HW1S:a[e8?_L3
+VYJfXQe=g7]d195K[I]7?_0
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 198
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_2
+vfrontsExtractor_3
+I:0g1RlbOCe@<17fij:?N@0
+Vb1Z`j<lmZJW_gSOi<4F`?3
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 214
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_3
+vfrontsExtractor_4
+I7EUI1CYa?T^X=kT[0TaKO3
+V<Jc?M54YgX8XVhZL`6i1o1
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 525
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_4
+vfrontsExtractor_5
+Ik?X>4JI`;zJ1QMJF7znfC3
+V[;KNDXd==@OMXH3kPoeZ>0
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 541
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_5
+vfrontsExtractor_6
+IFkokDM1;]aSc;HZGZ6GUE0
+VE8ELh1Se`0hO1>@J:ZZ;A3
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 652
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_6
+vfrontsExtractor_7
+IASn^7eKIjXY[zQWlGkL2<1
+VgWW9@ASXOBYM?F6NOj=FG2
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 668
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nfronts@extractor_7
+vjamma
+IEV1P>eTDXCQz6JUz5L:160
+VaOjA@zHZ=WO>gLJPY14kz1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 1007
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+vmux_16_6
+IOTz6eAghCdD>eCGY3UJ3?2
+VZlXI9FEH92XM[=0TZ>1En2
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 325
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+vmy16COUNTER
+IECzNml=^K>JcQ4o@]>DV`0
+VPWG9D04@JT7T@47N0ifDo2
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 75
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy16@c@o@u@n@t@e@r
+vmy4BREG
+I_773KzIgm@970Vo8WU^GH0
+VE[Ng7WU:;1NZNSmhUTAEJ1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 4
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy4@b@r@e@g
+vmy4COUNTER
+I<WNJZQ[KEJ9oi_3o:GU050
+VT4D_N4F?b:E=DdDX:C3gU1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 967
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy4@c@o@u@n@t@e@r
+vmyDFFE
+I3]WSWIBDHl0[`kk18NT7b1
+V=LHUN2bB2VzD2h0Z<EI=f1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 955
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@d@f@f@e
+vmyDFFE2
+IX0Xh<8=O=;dSIP=?:iZnE0
+VJ]mkMCFhF`TFX:z_30JNC0
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 520
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@d@f@f@e2
+vmyDFFE2_1
+IcS^M:G;T[jE<Zb97jUW`g0
+V<ea^kemz8KQZ:kO7mEZIP0
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 24
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@d@f@f@e2_1
+vmyDFFE2_2
+I1RZGL]I7K5el4N9Z<Xnc`3
+VhoHz93f^P?SNkX78DoN4Y2
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 803
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@d@f@f@e2_2
+vmyFRONTEXTRACTOR
+IWHO4hVg3K8D]>zchTXLS^3
+VjEOjVR>@Jf1QYEc[2Se3J3
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 828
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r
+vmyFRONTEXTRACTOR_1
+I=8Hd_1f[338h@aQg[LSgo2
+VIg_n]682dQA<@:?<DQ6o^2
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 844
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_1
+vmyFRONTEXTRACTOR_2
+I=XG@RQmAP;TUc6`KzRNBe1
+V`Yh`CKzojNFd<n[F`:9<90
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 221
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_2
+vmyFRONTEXTRACTOR_3
+IRnziMUf?GYK0S9IU@^?3Y3
+VSBf7U_kZEZk7AS2S49EMj3
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 237
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_3
+vmyFRONTEXTRACTOR_4
+IN40R1zV?bnKSOcm]R_c__2
+VUSGCaGRJCGR]8CR[9NNcz1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 544
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_4
+vmyFRONTEXTRACTOR_5
+IT8:zmn4jjnUf43z8n:nPh2
+V9no?`8UdQ;Q4MKV2U@Z9l3
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 560
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_5
+vmyFRONTEXTRACTOR_6
+I?cOe3Mca3gbO@ZDRhRY7C0
+V_F5L[S9aT9PRCbPhkf];83
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 673
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_6
+vmyFRONTEXTRACTOR_7
+IdEQHXd0f9zJ95Ki351FfI3
+VO>mJ:FE1jB<J@@4<<?SbE1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 689
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@f@r@o@n@t@e@x@t@r@a@c@t@o@r_7
+vmyMUX_16_6
+I8cDZ`h:k>J8`iU1GkJiRm2
+V@4MY`nV9a9Ah@c6:M4<QL3
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 348
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@m@u@x_16_6
+vmyNOISE
+IY;@b<g_KDjkiOUZ@h[M2o0
+VnF:KladDQYMdia?Eka^hk0
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 470
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@n@o@i@s@e
+vmyREVCOUNTER
+IDzJC684T2^^oFk9EE6HlI0
+VRf3n:FNTei_6kVA`A;;X32
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 858
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@r@e@v@c@o@u@n@t@e@r
+vmyREVCOUNTER_1
+I=S>DFVD[mDj5e?H:I6]?P0
+Vfd[Yk?<i:nk4^S?=TLjh11
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 251
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@r@e@v@c@o@u@n@t@e@r_1
+vmyREVCOUNTER_2
+Ie_UZO:nMJ;ZGo2`MkiI1_0
+VCaH8dF0F]XgAWHnnW6O_Y3
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 574
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@r@e@v@c@o@u@n@t@e@r_2
+vmyREVCOUNTER_3
+IiR^`Y=zHX=Z1DLI;EZhAn3
+VVkP7J?I@OI=MA:Mce6YFf2
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 703
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+nmy@r@e@v@c@o@u@n@t@e@r_3
+vQUAD_COUNTER
+I;EV=O3OZPLiA9[V6FUBEm0
+V>NkQJ[z48>z`9X?DhbZ@l1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 890
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r
+vQUAD_COUNTER_1
+IO3h2nAP02@:^6Lh>0iBzH1
+VG2O_2[X`]JbPMDKUkfZ`F1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 283
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r_1
+vQUAD_COUNTER_2
+I<jRl6FiA;2Mmh7JlE5lC32
+V<nQhgP>EMIcH93DfaQ`^60
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 606
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r_2
+vQUAD_COUNTER_3
+I[5:Q<ZTYD[bPlc]gUPAXl3
+VL09KT^>MO6gCfXEISnn3O1
+dE:\Actelprj\jamma\simulation
+w1058195224
+FE:/Actelprj/jamma/designer/jamma.v
+L0 736
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r_3
+vrevCounter
+I]PLZIYM[fz49JB40:2Cd70
+VH`Em4=QZ=F3nA:ICV53hb0
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 836
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nrev@counter
+vrevCounter_1
+IgFhMB`K^OEFbUU[>o1JMn0
+V?zE1aCSkQTaoCUCDd]RKT0
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 230
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nrev@counter_1
+vrevCounter_2
+I<1;Y?i`3Wi3<5IL]FjdbI2
+VYJKk7Wjh5RhhOX@=g<eof3
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 557
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nrev@counter_2
+vrevCounter_3
+IhP<92jcP7l9]n`fkIKi?K0
+VZKUBbj;gZF^Oe1JoglT]P2
+w1040324958
+FD:/Actelprj/jamma/designer/jamma.v
+L0 684
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/jamma/hdl -work postsynth -O0
+nrev@counter_3
+vstimulus
+IMdaCN`A6V95E0d2NaRz;61
+VP0@oCFc:k[?2Q?zdZA[eU3
+dE:\Actelprj\jamma\simulation
+w1058195192
+FE:/Actelprj/jamma/stimulus/trigger.v
+L0 2
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0
+vtestbench
+II83J?P@2VU^BGZ7HVFX[61
+VhGfW:390DM[oDMzegDH9`2
+dE:\Actelprj\jamma\simulation
+w1058195192
+FE:/Actelprj/jamma/stimulus/trigger.v
+L0 1172
+OW;L;5.6b;17
+r1
+31
+o+incdir+E:/Actelprj/jamma/hdl -work postsynth -O0

@@ -1,0 +1,311 @@
+$ Start of Compile
+#Tue Dec 24 22:58:46 2002
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"D:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"D:\Actelprj\scanconv\hdl\scanconv.v"
+@I:"D:\Actelprj\scanconv\hdl\scanconv.v":"D:\Actelprj\scanconv\hdl\vga.v"
+@I:"D:\Actelprj\scanconv\hdl\scanconv.v":"D:\Actelprj\scanconv\hdl\memory.v"
+@I:"D:\Actelprj\scanconv\hdl\scanconv.v":"D:\Actelprj\scanconv\hdl\cgaega.v"
+@I:"D:\Actelprj\scanconv\hdl\scanconv.v":"D:\Actelprj\scanconv\hdl\syncinv.v"
+Verilog syntax check successful!
+File D:\Actelprj\scanconv\hdl\vga.v changed - recompiling
+Selecting top level module scanconv
+Synthesizing module myFAILINGEX
+Synthesizing module vga
+Synthesizing module memory
+Synthesizing module cgaega
+Synthesizing module scanconv
+@END
+Process took 2.14 seconds realtime, 2.19 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.scanconv(verilog)
+Automatic dissolve at startup in view:work.vga(verilog) of hFrontExt(myFAILINGEX)
+Automatic dissolve at startup in view:work.vga(verilog) of vFrontExt(myFAILINGEX)
+Automatic dissolve at startup in view:work.scanconv(verilog) of imemory(memory)
+@N:"d:\actelprj\scanconv\hdl\vga.v":219:0:219:5|Found counter in view:work.vga(verilog) inst v[8:0]
+@N:"d:\actelprj\scanconv\hdl\vga.v":126:0:126:5|Found counter in view:work.vga(verilog) inst vdelay[4:0]
+@N:"d:\actelprj\scanconv\hdl\vga.v":191:0:191:5|Found counter in view:work.vga(verilog) inst h[6:0]
+@N:"d:\actelprj\scanconv\hdl\vga.v":106:0:106:5|Found counter in view:work.vga(verilog) inst hdelay[2:0]
+@N:"d:\actelprj\scanconv\hdl\vga.v":78:0:78:5|Found counter in view:work.vga(verilog) inst pixel[3:0]
+Automatic dissolve during optimization of view:work.cgaega(verilog) of I_61(inc2)
+Automatic dissolve during optimization of view:work.cgaega(verilog) of I_53(inc3)
+Automatic dissolve during optimization of view:work.cgaega(verilog) of I_52(inc4)
+Automatic dissolve during optimization of view:work.scanconv(verilog) of I_56(inc2)
+Replicating ivga.N_203, fanout 22 segments 2
+Replicating ivga.hsync, fanout 23 segments 2
+Replicating dirout, fanout 22 segments 2
+Buffering(l) ivga.hsync, fanout 15 segments 2
+
+Added 0 Buffers
+Added 3 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of scanconv 
+
+Target Part: ex64-s
+Combinational Cells:    145 of 128 (113%)
+Sequential Cells:    104 of 64 (163%)
+Total Cells:         249 of 192 (130%)
+Clock Buffers:       2
+IO Cells:            36
+
+Details:
+   and2:           9	comb:1
+   and2a:          6	comb:1
+   and2b:          2	comb:1
+   and3:           7	comb:1
+   and3a:          1	comb:1
+   and3b:          1	comb:1
+   and4:           4	comb:1
+   and4a:          1	comb:1
+   and4b:          1	comb:1
+   and4c:          2	comb:1
+   ax1c:           1	comb:1
+   buff:           1	comb:1
+   cm8:            80	comb:1
+   nand4:          1	comb:2
+   or2a:           6	comb:1
+   or2b:           2	comb:1
+   or3:            1	comb:1
+   or3b:           2	comb:1
+   or3c:           1	comb:1
+   or4d:           2	comb:1
+   xa1:            2	comb:1
+   xnor2:          1	comb:1
+   xor2:           10	comb:1
+
+   df1:            12	seq:1
+   dfc1b:          18	seq:1
+   dfe1b:          10	seq:1
+   dfe3c:          55	seq:1
+   dfe4f:          9	seq:1
+
+   bibuf:          8	
+   clkbuf:         1	clock buffer
+   hclkbuf:        1	clock buffer
+   inbuf:          4	
+   outbuf:         22	
+
+Found clock clk with period 37.04ns 
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Tue Dec 24 23:00:04 2002
+#
+
+
+Top view:              scanconv
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 18.607
+
+                   Requested     Estimated     Requested     Estimated                Clock   
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type    
+----------------------------------------------------------------------------------------------
+clk                27.0 MHz      54.3 MHz      37.037        18.430        18.607     inferred
+==============================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clk       clk     |  37.037      18.607  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port        Starting         User           Arrival     Required           
+Name        Reference        Constraint     Time        Time         Slack 
+            Clock                                                          
+---------------------------------------------------------------------------
+clk         NA               NA             NA          NA           NA    
+dMem[0]     clk (rising)     NA             0.000       32.957       32.957
+dMem[1]     clk (rising)     NA             0.000       32.957       32.957
+dMem[2]     clk (rising)     NA             0.000       32.957       32.957
+dMem[3]     clk (rising)     NA             0.000       32.957       32.957
+dMem[4]     clk (rising)     NA             0.000       32.957       32.957
+dMem[5]     clk (rising)     NA             0.000       32.957       32.957
+dMem[6]     clk (rising)     NA             0.000       32.957       32.957
+dMem[7]     clk (rising)     NA             0.000       32.957       32.957
+ega         clk (rising)     NA             0.000       27.177       27.177
+hsync       clk (rising)     NA             0.000       32.957       32.957
+iVideo      clk (rising)     NA             0.000       32.957       32.957
+nReset      NA               NA             NA          NA           NA    
+vsync       clk (rising)     NA             0.000       32.957       32.957
+===========================================================================
+
+
+Output Ports: 
+
+Port         Starting         User           Arrival     Required           
+Name         Reference        Constraint     Time        Time         Slack 
+             Clock                                                          
+----------------------------------------------------------------------------
+aMem[0]      clk (rising)     NA             9.680       37.037       27.357
+aMem[1]      clk (rising)     NA             9.680       37.037       27.357
+aMem[2]      clk (rising)     NA             9.680       37.037       27.357
+aMem[3]      clk (rising)     NA             9.680       37.037       27.357
+aMem[4]      clk (rising)     NA             9.680       37.037       27.357
+aMem[5]      clk (rising)     NA             9.680       37.037       27.357
+aMem[6]      clk (rising)     NA             10.480      37.037       26.557
+aMem[7]      clk (rising)     NA             10.480      37.037       26.557
+aMem[8]      clk (rising)     NA             10.480      37.037       26.557
+aMem[9]      clk (rising)     NA             10.480      37.037       26.557
+aMem[10]     clk (rising)     NA             10.480      37.037       26.557
+aMem[11]     clk (rising)     NA             10.480      37.037       26.557
+aMem[12]     clk (rising)     NA             10.480      37.037       26.557
+aMem[13]     clk (rising)     NA             10.480      37.037       26.557
+aMem[14]     clk (rising)     NA             10.480      37.037       26.557
+aMem[15]     clk (rising)     NA             10.480      37.037       26.557
+csync        clk (rising)     NA             6.660       37.037       30.377
+dMem[0]      clk (rising)     NA             11.900      37.037       25.137
+dMem[1]      clk (rising)     NA             11.900      37.037       25.137
+dMem[2]      clk (rising)     NA             11.900      37.037       25.137
+dMem[3]      clk (rising)     NA             11.900      37.037       25.137
+dMem[4]      clk (rising)     NA             11.900      37.037       25.137
+dMem[5]      clk (rising)     NA             11.900      37.037       25.137
+dMem[6]      clk (rising)     NA             11.900      37.037       25.137
+dMem[7]      clk (rising)     NA             11.900      37.037       25.137
+nCs          clk (rising)     NA             5.280       37.037       31.757
+nOe          clk (rising)     NA             5.280       37.037       31.757
+nWe          clk (rising)     NA             5.280       37.037       31.757
+oVideo       clk (rising)     NA             6.830       37.037       30.207
+relay        clk (rising)     NA             5.280       37.037       31.757
+============================================================================
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                    Arrival           
+Instance             Type      Pin     Net          Time        Slack 
+                                                                      
+----------------------------------------------------------------------
+icgaega.hcnt[1]      dfe3c     q       aCga[1]      2.100       18.607
+imemory.state[0]     df1       q       halfclk      3.300       19.327
+icgaega.vcnt[2]      dfc1b     q       aCga[9]      2.100       19.457
+icgaega.hcnt[2]      dfe3c     q       aCga[2]      2.500       19.947
+icgaega.hcnt[5]      dfe3c     q       aCga[5]      2.500       19.947
+icgaega.vcnt[4]      dfc1b     q       aCga[11]     2.900       20.207
+icgaega.hcnt[0]      dfe3c     q       aCga[0]      3.300       20.527
+icgaega.vcnt[5]      dfc1b     q       aCga[12]     2.500       20.607
+icgaega.hcnt[6]      dfe3c     q       aCga[6]      1.700       20.747
+icgaega.hcnt[4]      dfe3c     q       aCga[4]      2.900       20.927
+======================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                                Required           
+Instance            Type      Pin     Net                       Time         Slack 
+                                                                                   
+-----------------------------------------------------------------------------------
+icgaega.vcnt[8]     dfc1b     d       icgaega.vcnt_10[8]        34.537       18.607
+icgaega.vcnt[4]     dfc1b     d       icgaega.un1_vcnt_2[4]     34.537       19.987
+icgaega.vcnt[5]     dfc1b     d       icgaega.un1_vcnt_2[5]     34.537       19.987
+icgaega.vcnt[7]     dfc1b     d       icgaega.vcnt_10[7]        34.537       19.987
+ivga.v[0]           dfe3c     e       ivga.N_165                34.537       21.497
+ivga.v[1]           dfe3c     e       ivga.N_165                34.537       21.497
+ivga.v[2]           dfe3c     e       ivga.N_165                34.537       21.497
+ivga.v[3]           dfe3c     e       ivga.N_165                34.537       21.497
+ivga.v[4]           dfe3c     e       ivga.N_165                34.537       21.497
+ivga.v[5]           dfe3c     e       ivga.N_165                34.537       21.497
+===================================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    - Setup time:                         2.500
+    = Required time:                      34.537
+
+    - Propagation  time:                  15.930
+    = Slack (critical) :                  18.607
+
+    Starting point:                       icgaega.hcnt[1] / q
+    Ending point:                         icgaega.vcnt[8] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                          Pin      Pin               Arrival     Fan
+Name                          Type      Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------------
+icgaega.hcnt[1]               dfe3c     q        Out     2.100     2.100          
+aCga[1]                       Net                                              5  
+icgaega.aCga_i[1]             cm8       s00      In                2.100          
+icgaega.aCga_i[1]             cm8       y        Out     1.740     3.840          
+aCga_i[1]                     Net                                              3  
+icgaega.w_end_of_line_218     and4c     d        In                3.840          
+icgaega.w_end_of_line_218     and4c     y        Out     1.380     5.220          
+N_276                         Net                                              1  
+icgaega.w_end_of_line         and4c     d        In                5.220          
+icgaega.w_end_of_line         and4c     y        Out     2.400     7.620          
+icgaega.w_end_of_line         Net                                              5  
+icgaega.un1_access            and3a     c        In                7.620          
+icgaega.un1_access            and3a     y        Out     2.000     9.620          
+icgaega.un1_access            Net                                              4  
+icgaega.un1_vcnt_2_c3         and4      b        In                9.620          
+icgaega.un1_vcnt_2_c3         and4      y        Out     2.000     11.620         
+icgaega.N_75                  Net                                              4  
+icgaega.un1_vcnt_2x_c7        and2      a        In                11.620         
+icgaega.un1_vcnt_2x_c7        and2      y        Out     1.550     13.170         
+icgaega.N_82                  Net                                              2  
+icgaega.un1_vcnt_2[9]         ax1c      a        In                13.170         
+icgaega.un1_vcnt_2[9]         ax1c      y        Out     1.380     14.550         
+icgaega.un1_vcnt_2[8]         Net                                              1  
+icgaega.vcnt_10[8]            and2a     b        In                14.550         
+icgaega.vcnt_10[8]            and2a     y        Out     1.380     15.930         
+icgaega.vcnt_10[8]            Net                                              1  
+icgaega.vcnt[8]               dfc1b     d        In                15.930         
+==================================================================================
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 75.41 seconds realtime, 75.52 seconds cputime

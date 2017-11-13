@@ -1,0 +1,35 @@
+Selecting top level module crt_top
+Synthesizing module crt_clock
+Synthesizing module crt_pix
+Synthesizing module crt_scan
+Synthesizing module fextractor
+Synthesizing module lcel
+Synthesizing module quad_tmr
+Synthesizing module crt_cookie
+Synthesizing module onefextractor
+Synthesizing module crt_measure
+Synthesizing module crt_cpu
+Synthesizing module crt_mem
+Synthesizing module crt_syncsinv
+Synthesizing module crt_sys
+Synthesizing module crt_top
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":29:4:29:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":33:4:33:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":38:4:38:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":44:4:44:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":54:4:54:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":74:4:74:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":96:4:96:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":114:4:114:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":126:4:126:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":10:20:10:22|No assignment to clk
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":10:25:10:30|No assignment to _reset
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":12:20:12:22|No assignment to dbi
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":12:25:12:27|No assignment to mdi
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":13:20:13:21|No assignment to ds
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":13:24:13:25|No assignment to as
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":13:28:13:30|No assignment to _wr
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":18:20:18:20|No assignment to a
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":18:23:18:23|No assignment to b
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":19:20:19:24|No assignment to hsync
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":19:27:19:31|No assignment to vsync

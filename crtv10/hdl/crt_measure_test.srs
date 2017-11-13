@@ -1,0 +1,47 @@
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version 7.1, Build 158R from Synplicity, Inc.
+# Copyright 1994-1999 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Fri Apr 25 15:44:20 2003
+#
+#
+#OPTIONS:"|-ram|-If:\\synplicity\\Synplify_71A\\lib|-v95|-autosm|-fid2|-sharing|on|-encrypt|-ui"
+#CUR:"f:\\synplicity\\Synplify_71A\\bin\\c_ver.exe":1019149510l
+#CUR:"F:\\synplicity\\Synplify_71A\\LIB\\actel\\EX.v":968160412l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_clock.v":1051172903l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_pix.v":1050421471l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_scan.v":1051170991l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\fextractor.v":1051167200l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\quad_tmr.v":1051186658l
+#CUR:"F:\\actelprj\\crtv10\\hdl\\crt_cookie.v":1051271806l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_measure.v":1051187682l
+#CUR:"F:\\actelprj\\crtv10\\hdl\\crt_cpu.v":1051271518l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_mem.v":1051193523l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_syncsinv.v":1051174509l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_sys.v":1051195925l
+#CUR:"F:\\Actelprj\\crtv10\\hdl\\crt_measure_tst.v":1051195003l
+f "F:\synplicity\Synplify_71A\LIB\actel\EX.v"; # file 0
+f "F:\Actelprj\crtv10\hdl\crt_clock.v"; # file 1
+f "F:\Actelprj\crtv10\hdl\crt_pix.v"; # file 2
+f "F:\Actelprj\crtv10\hdl\crt_scan.v"; # file 3
+f "F:\Actelprj\crtv10\hdl\fextractor.v"; # file 4
+f "F:\Actelprj\crtv10\hdl\quad_tmr.v"; # file 5
+f "F:\actelprj\crtv10\hdl\crt_cookie.v"; # file 6
+f "F:\Actelprj\crtv10\hdl\crt_measure.v"; # file 7
+f "F:\actelprj\crtv10\hdl\crt_cpu.v"; # file 8
+f "F:\Actelprj\crtv10\hdl\crt_mem.v"; # file 9
+f "F:\Actelprj\crtv10\hdl\crt_syncsinv.v"; # file 10
+f "F:\Actelprj\crtv10\hdl\crt_sys.v"; # file 11
+f "F:\Actelprj\crtv10\hdl\crt_measure_tst.v"; # file 12
+@E@MR@:4.U::(U.:.RsIF	sRO0C_lNs#kCC_0#P0RCDsHF
+o;N3PRHC#PsFHDo;R4
+RNP3HFsolhNCOR"sl0_CkN#s0C_C"#0;
+
+
+
+@bR@4j::44::0.RsRkC0CskRk0sCb;
+Rj@@:44::.4:RDVN#VCRNCD#RDVN#
+C;C
+;
+

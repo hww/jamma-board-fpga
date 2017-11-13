@@ -1,0 +1,36 @@
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version 7.1, Build 158R from Synplicity, Inc.
+# Copyright 1994-1999 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Thu Dec 19 17:02:11 2002
+#
+#
+#OPTIONS:"|-ram|-ID:\\SYNPLICITY\\SYNPLIFY_71A\\lib|-v95|-autosm|-fid2|-sharing|on|-encrypt|-ui"
+#CUR:"D:\\SYNPLICITY\\SYNPLIFY_71A\\BIN\\C_VER.EXE":1019145910l
+#CUR:"D:\\synplicity\\Synplify_71A\\LIB\\actel\\EX.v":968156812l
+#CUR:"D:\\Actelprj\\jamma\\hdl\\interface.v":1040239426l
+f "D:\synplicity\Synplify_71A\LIB\actel\EX.v"; # file 0
+f "D:\Actelprj\jamma\hdl\interface.v"; # file 1
+@E@MR@d4:4(c::cd4:R4(I	FsR4l$nzBmh)a RsPCHoDF;P
+NR#3HPHCsDRFo4N;
+PFR3shHoNRlC"4l$nzBmh)a "N;
+PQRW7Ra]4
+n;
+@HR@d4:4(U::Ud4:OgRDO	RD
+	;
+@HR@d4:4(g::gd4:R44sCC#0CRs#;C0
+@HR@d4:.(j::jd.:CgRMCNRM
+N;
+@HR@d4:.(4::4d.:#gRC#0RC
+0;
+@HR@d4:.4.:g.:d..:.R08NN6r4:Rj98NN0r:46j
+9;
+@FR@d4:..d:j.:ddj:.R4Jr69:jR4Jr69:j;R
+b@:@j4::44R:.0CskRk0sCsR0k
+C;b@R@j::44::4.NRVDR#CV#NDCNRVD;#C
+@bR@d4:d4c:dd:dcd:.R8N8R4kM_4Jr69:jR4kM_4Jr69:jR4Jr69:jRNCM;R
+b@:@4d:.g4.:dgR:.lRkGOMFk0_Csn6r4:Rj9OMFk0_Csn6r4:Rj9k_M4J6r4:Rj98NN0r:46jR9
+R#RRC
+0;b@R@4.:d(::jd:.(6VR8VJsRr:46jJ9Rr:46jO9RF0kMCns_r:46jO9RDs	RC0#C;;
+C

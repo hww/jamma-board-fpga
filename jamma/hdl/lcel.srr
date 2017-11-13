@@ -1,0 +1,22 @@
+$ Start of Compile
+#Thu Dec 19 17:03:10 2002
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"D:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"D:\Actelprj\jamma\hdl\interface.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module my16COUNTER
+Synthesizing module my16COUNTER
+@END
+Process took 0.28 seconds realtime, 0.28 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.my16COUNTER(verilog)
+@N:"d:\actelprj\jamma\hdl\interface.v":327:0:327:5|Found counter in view:work.my16COUNTER(verilog) inst q[15:0]

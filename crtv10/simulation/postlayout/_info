@@ -1,0 +1,244 @@
+m255
+o
+cModel Technology
+df:\Actelprj\crtv10\simulation
+vcrt_clock
+I>aMBzmBb>Sk[?DX`aaRBm3
+VHT7iEf`9n`A`@;]Wa]7F`0
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 1326
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_cookie
+IG`RkDfD6L2k4n@ENnYkHc2
+VUcIDob8M5_@`Y@W[K_F>H3
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 515
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_cpu
+I[<o1Oc^2JUGRRd2_T0V@U1
+Vz_EYB]WfBlO3G=Jjj9Z^L2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 526
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_measure
+IlbO>Wn[;9Y80YFj9^0Wm60
+V4@4V0^W^?1zPF7@m:^G8h1
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 240
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_mem
+Ij@hN]LK>i6nzaQ7GUYn9H0
+V6E9Z4GlZ6]RV_hB1W[YXn2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 4
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_pix
+IcSi@Rgka:SYU>RYVdM=9_2
+V5?YLPf[YlKgl:03]64IKW1
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 1251
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_scan
+IaX`K2Cj0H1mkdoDY4B6dM3
+V@4V]cSm][9iR2NiJfMb?Z2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 844
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_syncsinv
+I4d@L@:d0a2;P17<09>c@T1
+VXE<dcZHZHPjjZ65^Y8Dlh1
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 1154
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vcrt_sys
+IGIbLkaK<RKL^Z_MjdA`lo0
+Vd0ZC8E6ee?]NV@R<CIAM11
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 1387
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor
+Ic1Za3nRFf[?^gaVQEQcT20
+VeiL6m@TXjcUB5jRN5L:3n2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 351
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_1
+I?M^zeYAY?_AUbCbNCoE`M2
+V62eaL6lF9VcLO]JoHaG1z2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 336
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_2
+IQ]IViWCXIo>@Q]G3G^SaP3
+V==jDZ7gVG4RZ?K_0TF`Ho3
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 140
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_3
+IQCgX15UFA6J^mLj0j9QNF2
+V7K]7Ebd[EDIi1<WW`208z3
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 126
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_4
+I7hf0>IgeRaPCa?FjEC>fY2
+V7EIXF8Pd2JHSWTW:I1QBK3
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 52
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_5
+IKM]M:k>NHz^GG0=GAe1_53
+VDZfDY;T1A6mhLX`78YX4a0
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 38
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_6
+Ij<P[me<6ld4>zcWGH;0MK2
+VP[8_GP6LV2NSglRBcznQ03
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 440
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vfextractor_7
+IX]ok`eSggLAk45EMgGMRD3
+Vm6h>m1Y7REa6TaG_2m2_o0
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 426
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vonefextractor
+IgBiFLzP^>ZeB?hc756;Mi3
+Vacd5a7SRfhlC;:V<eL^9X1
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 217
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vonefextractor_1
+In7^0nWXO`dOMOgaVGPXnO2
+VlOQl:FcgY1ePSXG]kjfBz3
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 229
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vonefextractor_2
+IKiI>lkALh7dmW_`7HZn6j2
+V=OSeGXUjRWc[8iEaAN_lU3
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 1144
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vquad_tmr
+IbBl]liYn`DTQ0:P06C3Ea3
+VzXm=AQ;BaXB?4Y>[=6WT42
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 366
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vquad_tmr_1
+I9cF64FZkPaPnS@<>hFa0I0
+V5L4QBg7M:=W[;R:KYCP=<2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 155
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vquad_tmr_2
+I=:Uaf?D1DXz[FdY63d_mh0
+VU0zl:c902Y:3SQWHJohN]2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 66
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0
+vquad_tmr_3
+IofER@V6`]3n:lVb1@n[`41
+V_`dbzJkd9[D8e^dTX<]<z2
+w1051274547
+Ff:/Actelprj/crtv10/designer/crt_sys_ba.v
+L0 454
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work postlayout -O0

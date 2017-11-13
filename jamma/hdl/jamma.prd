@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 7.1A       
+#-- Project file D:\Actelprj\jamma\hdl\jamma.prd
+#-- Written on Fri Dec 20 17:14:59 2002
+
+#
+### Watch Implementation type ###
+#
+watch_impl -active
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

@@ -1,0 +1,817 @@
+$ Start of Compile
+#Fri Apr 25 15:19:27 2003
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"F:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_clock.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_pix.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_scan.v"
+@I::"F:\Actelprj\crtv10\hdl\fextractor.v"
+@I::"F:\Actelprj\crtv10\hdl\quad_tmr.v"
+@I::"F:\actelprj\crtv10\hdl\crt_cookie.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_measure.v"
+@I::"F:\actelprj\crtv10\hdl\crt_cpu.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_mem.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_syncsinv.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_sys.v"
+Verilog syntax check successful!
+File F:\Actelprj\crtv10\hdl\crt_clock.v changed - recompiling
+Selecting top level module crt_sys
+Synthesizing module crt_clock
+Synthesizing module crt_pix
+Synthesizing module crt_scan
+Synthesizing module fextractor
+Synthesizing module lcel
+Synthesizing module quad_tmr
+Synthesizing module crt_cookie
+Synthesizing module onefextractor
+Synthesizing module crt_measure
+Synthesizing module crt_cpu
+Synthesizing module crt_mem
+Synthesizing module crt_syncsinv
+Synthesizing module crt_sys
+@END
+Process took 1.702 seconds realtime, 1.752 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.crt_sys(verilog)
+Automatic dissolve at startup in view:work.quad_tmr(verilog) of lcel_obj(lcel)
+Automatic dissolve at startup in view:work.crt_measure(verilog) of vsig_obj(onefextractor)
+Automatic dissolve at startup in view:work.crt_measure(verilog) of hsig_obj(onefextractor)
+Automatic dissolve at startup in view:work.crt_cpu(verilog) of obj_crt_cookie(crt_cookie)
+Automatic dissolve at startup in view:work.crt_syncsinv(verilog) of hsig_obj(onefextractor)
+Automatic dissolve at startup in view:work.crt_sys(verilog) of ob_crt_mem(crt_mem)
+@N:"f:\actelprj\crtv10\hdl\crt_measure.v":38:4:38:9|Found counter in view:work.crt_measure(verilog) inst q[9:0]
+Automatic dissolve during optimization of view:work.crt_clock(verilog) of I_1(inc4)
+Automatic dissolve during optimization of view:work.quad_tmr(verilog) of fadd4_nc_3t0(fadd4_nc)
+Automatic dissolve during optimization of view:work.crt_cpu(verilog) of I_76(inc4)
+Automatic dissolve during optimization of view:work.crt_cpu(verilog) of I_75(inc4)
+Automatic dissolve during optimization of view:work.crt_cpu(verilog) of I_72(inc2)
+Automatic dissolve during optimization of view:work.crt_syncsinv(verilog) of fadd4_nc_3t0(fadd4_nc)
+Automatic dissolve during optimization of view:work.crt_syncsinv(verilog) of fadd4_nc_3t0(fadd4_nc)
+Automatic dissolve during optimization of view:work.crt_sys(verilog) of ob_crt_pix(crt_pix)
+Warning: Found 8 combinational loops!
+         Each loop is reported with an instance in the loop
+         and nets connected to that instance.
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+1) instance db_pad[0] work.crt_sys(verilog)-db_pad[0], output net work.crt_sys(verilog)-db_in[0]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.dboreg[0]
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+2) instance db_pad[1] work.crt_sys(verilog)-db_pad[1], output net work.crt_sys(verilog)-db_in[1]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.dboreg[1]
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+3) instance db_pad[2] work.crt_sys(verilog)-db_pad[2], output net work.crt_sys(verilog)-db_in[2]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.N_317_i
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+4) instance db_pad[3] work.crt_sys(verilog)-db_pad[3], output net work.crt_sys(verilog)-db_in[3]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.N_315_i
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+5) instance db_pad[4] work.crt_sys(verilog)-db_pad[4], output net work.crt_sys(verilog)-db_in[4]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.N_313_i
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+6) instance db_pad[5] work.crt_sys(verilog)-db_pad[5], output net work.crt_sys(verilog)-db_in[5]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.dboreg[5]
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+7) instance db_pad[6] work.crt_sys(verilog)-db_pad[6], output net work.crt_sys(verilog)-db_in[6]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.dboreg[6]
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+@W:"f:\actelprj\crtv10\hdl\crt_sys.v":14:20:14:21|Found combinational loop during mapping
+8) instance db_pad[7] work.crt_sys(verilog)-db_pad[7], output net work.crt_sys(verilog)-db_in[7]
+    input nets to instance:
+	net work.crt_sys(verilog)-ob_crt_cpu.dboreg[7]
+	net work.crt_sys(verilog)-ob_crt_cpu.N_300_i
+End of loops
+Replicating pxclk_i, fanout 20 segments 2
+Replicating ob_crt_cpu.N_303, fanout 22 segments 2
+Replicating ob_crt_cpu.reg_select[0], fanout 24 segments 2
+Replicating ob_crt_cpu.reg_select[1], fanout 15 segments 2
+Replicating ob_crt_mem.bus_mux, fanout 32 segments 3
+Replicating onemks, fanout 33 segments 3
+Replicating hcnt_i[0], fanout 16 segments 2
+Buffering ds_c, fanout 23 segments 2
+
+Added 1 Buffers
+Added 9 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of crt_sys 
+
+Target Part: ex256-s
+Combinational Cells:    314 of 512 (61%)
+Sequential Cells:    131 of 256 (51%)
+Total Cells:         445 of 768 (58%)
+Clock Buffers:       2
+IO Cells:            62
+
+Details:
+   and2:           24	comb:1
+   and2a:          8	comb:1
+   and2b:          4	comb:1
+   and3:           6	comb:1
+   and3a:          4	comb:1
+   and3b:          2	comb:1
+   and3c:          1	comb:1
+   and4:           7	comb:1
+   and4a:          1	comb:1
+   and4b:          4	comb:1
+   and4c:          3	comb:1
+   ax1c:           8	comb:1
+   buff:           1	comb:1
+   cm8:            194	comb:1
+   cy2a:           6	comb:1
+   dfp1:           2	comb:1, seq:1
+   nand4:          1	comb:2
+   or2a:           2	comb:1
+   or2b:           1	comb:1
+   or3b:           1	comb:1
+   or4c:           4	comb:1
+   xa1:            1	comb:1
+   xnor2:          6	comb:1
+   xor2:           22	comb:1
+
+   dfc1b:          49	seq:1
+   dfe3c:          80	seq:1
+
+   bibuf:          16	
+   clkbuf:         1	clock buffer
+   hclkbuf:        1	clock buffer
+   inbuf:          15	
+   outbuf:         29	
+
+Found clock clk with period 10.00ns 
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Fri Apr 25 15:21:46 2003
+#
+
+
+Top view:              crt_sys
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -14.830
+
+                   Requested     Estimated     Requested     Estimated                 Clock   
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type    
+-----------------------------------------------------------------------------------------------
+clk                100.0 MHz     40.3 MHz      10.000        24.830        -14.830     inferred
+System             100.0 MHz     56.9 MHz      10.000        17.560        -7.560      system  
+===============================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+clk       clk     |  10.000      -14.830  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port          Starting            User           Arrival     Required           
+Name          Reference           Constraint     Time        Time         Slack 
+              Clock                                                             
+--------------------------------------------------------------------------------
+_reset        NA                  NA             NA          NA           NA    
+_wr           System (rising)     NA             0.000       -0.800       -0.800
+a[0]          clk (rising)        NA             0.000       -0.920       -0.920
+a[1]          clk (rising)        NA             0.000       -0.920       -0.920
+a[2]          clk (rising)        NA             0.000       -0.920       -0.920
+a[3]          clk (rising)        NA             0.000       -0.920       -0.920
+as            System (rising)     NA             0.000       0.450        0.450 
+b[0]          clk (rising)        NA             0.000       -0.920       -0.920
+b[1]          clk (rising)        NA             0.000       -0.920       -0.920
+b[2]          clk (rising)        NA             0.000       -0.920       -0.920
+b[3]          clk (rising)        NA             0.000       -0.920       -0.920
+clk           NA                  NA             NA          NA           NA    
+db[0]         NA                  NA             NA          NA           NA    
+db[1]         NA                  NA             NA          NA           NA    
+db[2]         NA                  NA             NA          NA           NA    
+db[3]         NA                  NA             NA          NA           NA    
+db[4]         NA                  NA             NA          NA           NA    
+db[5]         NA                  NA             NA          NA           NA    
+db[6]         NA                  NA             NA          NA           NA    
+db[7]         NA                  NA             NA          NA           NA    
+ds            System (rising)     NA             0.000       -7.560       -7.560
+extsyncon     System (rising)     NA             0.000       2.840        2.840 
+hsync_in      clk (rising)        NA             0.000       -2.570       -2.570
+md[0]         System (rising)     NA             0.000       1.290        1.290 
+md[1]         System (rising)     NA             0.000       1.100        1.100 
+md[2]         System (rising)     NA             0.000       1.290        1.290 
+md[3]         System (rising)     NA             0.000       1.290        1.290 
+md[4]         System (rising)     NA             0.000       1.290        1.290 
+md[5]         System (rising)     NA             0.000       1.290        1.290 
+md[6]         System (rising)     NA             0.000       1.290        1.290 
+md[7]         System (rising)     NA             0.000       1.290        1.290 
+med_res       clk (rising)        NA             0.000       -9.990       -9.990
+vsync_in      clk (rising)        NA             0.000       -2.570       -2.570
+================================================================================
+
+
+Output Ports: 
+
+Port         Starting            User           Arrival     Required           
+Name         Reference           Constraint     Time        Time         Slack 
+             Clock                                                             
+-------------------------------------------------------------------------------
+_mcs         clk (rising)        NA             14.830      10.000       -4.830
+_mrd         clk (rising)        NA             14.830      10.000       -4.830
+_mwr         System (rising)     NA             10.980      10.000       -0.980
+csync        clk (rising)        NA             9.060       10.000       0.940 
+db[0]        System (rising)     NA             17.560      10.000       -7.560
+db[1]        System (rising)     NA             17.560      10.000       -7.560
+db[2]        System (rising)     NA             17.560      10.000       -7.560
+db[3]        System (rising)     NA             17.560      10.000       -7.560
+db[4]        clk (rising)        NA             17.060      10.000       -7.060
+db[5]        System (rising)     NA             17.560      10.000       -7.560
+db[6]        System (rising)     NA             17.560      10.000       -7.560
+db[7]        clk (rising)        NA             17.060      10.000       -7.060
+int          clk (rising)        NA             5.640       10.000       4.360 
+ma[0]        clk (rising)        NA             10.080      10.000       -0.080
+ma[1]        clk (rising)        NA             10.080      10.000       -0.080
+ma[2]        clk (rising)        NA             10.080      10.000       -0.080
+ma[3]        clk (rising)        NA             10.480      10.000       -0.480
+ma[4]        clk (rising)        NA             10.480      10.000       -0.480
+ma[5]        clk (rising)        NA             10.080      10.000       -0.080
+ma[6]        clk (rising)        NA             9.680       10.000       0.320 
+ma[7]        clk (rising)        NA             10.480      10.000       -0.480
+ma[8]        clk (rising)        NA             10.080      10.000       -0.080
+ma[9]        clk (rising)        NA             10.080      10.000       -0.080
+ma[10]       clk (rising)        NA             10.480      10.000       -0.480
+ma[11]       clk (rising)        NA             10.080      10.000       -0.080
+ma[12]       clk (rising)        NA             10.080      10.000       -0.080
+ma[13]       clk (rising)        NA             10.080      10.000       -0.080
+ma[14]       clk (rising)        NA             10.080      10.000       -0.080
+ma[15]       clk (rising)        NA             10.080      10.000       -0.080
+ma[16]       clk (rising)        NA             10.080      10.000       -0.080
+ma[17]       clk (rising)        NA             10.080      10.000       -0.080
+ma[18]       clk (rising)        NA             10.080      10.000       -0.080
+ma[19]       clk (rising)        NA             10.080      10.000       -0.080
+md[0]        System (rising)     NA             13.200      10.000       -3.200
+md[1]        System (rising)     NA             13.200      10.000       -3.200
+md[2]        System (rising)     NA             13.200      10.000       -3.200
+md[3]        System (rising)     NA             13.200      10.000       -3.200
+md[4]        System (rising)     NA             13.200      10.000       -3.200
+md[5]        System (rising)     NA             13.200      10.000       -3.200
+md[6]        System (rising)     NA             13.200      10.000       -3.200
+md[7]        System (rising)     NA             13.200      10.000       -3.200
+pixel[0]     clk (rising)        NA             5.280       10.000       4.720 
+pixel[1]     clk (rising)        NA             5.280       10.000       4.720 
+pixel[2]     clk (rising)        NA             5.280       10.000       4.720 
+pixel[3]     clk (rising)        NA             5.280       10.000       4.720 
+===============================================================================
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                      Arrival            
+Instance                Type      Pin     Net         Time        Slack  
+                                                                         
+-------------------------------------------------------------------------
+ob_crt_scan.hcnt[2]     dfe3c     q       hcnt[2]     4.100       -14.830
+ob_crt_scan.hcnt[6]     dfe3c     q       hcnt[6]     4.100       -14.830
+ob_crt_scan.hcnt[9]     dfe3c     q       hcnt[9]     4.100       -13.450
+ob_crt_scan.hcnt[3]     dfe3c     q       hcnt[3]     3.700       -13.220
+ob_crt_scan.hcnt[7]     dfe3c     q       hcnt[7]     3.700       -13.050
+ob_crt_scan.hcnt[8]     dfe3c     q       hcnt[8]     3.700       -13.050
+ob_crt_scan.hcnt[4]     dfe3c     q       hcnt[4]     4.900       -13.040
+ob_crt_scan.hcnt[5]     dfe3c     q       hcnt[5]     4.900       -13.040
+ob_crt_scan.hcnt[1]     dfe3c     q       hcnt[1]     4.500       -12.640
+ob_crt_scan.hcnt[0]     dfe3c     q       hcnt[0]     4.100       -12.070
+=========================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                                                Required            
+Instance                    Type      Pin     Net                               Time         Slack  
+                                                                                                    
+----------------------------------------------------------------------------------------------------
+ob_crt_scan.vcnt[8]         dfc1b     d       ob_crt_scan.vreg_10[8]            7.500        -14.830
+ob_crt_scan.vcnt[3]         dfc1b     d       ob_crt_scan.vreg_10[3]            7.500        -12.070
+ob_crt_scan.vcnt[4]         dfc1b     d       ob_crt_scan.vreg_10[4]            7.500        -12.070
+ob_crt_scan.vcnt[5]         dfc1b     d       ob_crt_scan.un1_vcnt_1[5]         7.500        -12.070
+ob_crt_scan.vcnt[6]         dfc1b     d       ob_crt_scan.un1_vcnt_1[6]         7.500        -12.070
+ob_crt_scan.vcnt[7]         dfc1b     d       ob_crt_scan.vreg_10[7]            7.500        -12.070
+ob_crt_scan.vcnt[2]         dfc1b     d       ob_crt_scan.vreg_10[2]            7.500        -10.650
+ob_crt_scan.vcnt[1]         dfc1b     d       ob_crt_scan.vreg_10[1]            7.500        -9.100 
+ob_crt_syncsinv.hcnt[2]     dfc1b     d       ob_crt_syncsinv.un1_hcnt_2[2]     7.500        -8.070 
+ob_crt_syncsinv.hcnt[3]     dfp1      d       ob_crt_syncsinv.un1_hcnt_2[3]     7.500        -8.070 
+====================================================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  22.330
+    = Slack (critical) :                  -14.830
+
+    Starting point:                       ob_crt_scan.hcnt[2] / q
+    Ending point:                         ob_crt_scan.vcnt[8] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                             Pin      Pin               Arrival     Fan
+Name                             Type      Name     Dir     Delay     Time        Out
+-------------------------------------------------------------------------------------
+ob_crt_scan.hcnt[2]              dfe3c     q        Out     4.100     4.100          
+hcnt[2]                          Net                                              10 
+ob_crt_scan.un3_eof_line_456     and2a     a        In                4.100          
+ob_crt_scan.un3_eof_line_456     and2a     y        Out     1.380     5.480          
+N_561                            Net                                              1  
+ob_crt_scan.un3_eof_line_458     cm8       d1       In                5.480          
+ob_crt_scan.un3_eof_line_458     cm8       y        Out     1.380     6.860          
+N_563                            Net                                              1  
+ob_crt_scan.un3_eof_line         cm8       s01      In                6.860          
+ob_crt_scan.un3_eof_line         cm8       y        Out     1.380     8.240          
+ob_crt_scan.un3_eof_line         Net                                              1  
+ob_crt_scan.eof_line             cm8       d3       In                8.240          
+ob_crt_scan.eof_line             cm8       y        Out     5.600     13.840         
+ob_crt_scan.eof_line             Net                                              20 
+ob_crt_scan.un1_pxclk_1          and3a     b        In                13.840         
+ob_crt_scan.un1_pxclk_1          and3a     y        Out     1.550     15.390         
+ob_crt_scan.un1_pxclk_1          Net                                              2  
+ob_crt_scan.un1_vcnt_1_c3        and4      b        In                15.390         
+ob_crt_scan.un1_vcnt_1_c3        and4      y        Out     2.800     18.190         
+ob_crt_scan.N_70                 Net                                              6  
+ob_crt_scan.un1_vcnt_1x_c7       and2      a        In                18.190         
+ob_crt_scan.un1_vcnt_1x_c7       and2      y        Out     1.380     19.570         
+ob_crt_scan.N_77                 Net                                              1  
+ob_crt_scan.un1_vcnt_1[9]        ax1c      a        In                19.570         
+ob_crt_scan.un1_vcnt_1[9]        ax1c      y        Out     1.380     20.950         
+ob_crt_scan.un1_vcnt_1[8]        Net                                              1  
+ob_crt_scan.vreg_10[8]           and2a     b        In                20.950         
+ob_crt_scan.vreg_10[8]           and2a     y        Out     1.380     22.330         
+ob_crt_scan.vreg_10[8]           Net                                              1  
+ob_crt_scan.vcnt[8]              dfc1b     d        In                22.330         
+=====================================================================================
+
+
+Path information for path number 2: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  22.330
+    = Slack (critical) :                  -14.830
+
+    Starting point:                       ob_crt_scan.hcnt[6] / q
+    Ending point:                         ob_crt_scan.vcnt[8] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                             Pin      Pin               Arrival     Fan
+Name                             Type      Name     Dir     Delay     Time        Out
+-------------------------------------------------------------------------------------
+ob_crt_scan.hcnt[6]              dfe3c     q        Out     4.100     4.100          
+hcnt[6]                          Net                                              10 
+ob_crt_scan.un3_eof_line_456     and2a     b        In                4.100          
+ob_crt_scan.un3_eof_line_456     and2a     y        Out     1.380     5.480          
+N_561                            Net                                              1  
+ob_crt_scan.un3_eof_line_458     cm8       d1       In                5.480          
+ob_crt_scan.un3_eof_line_458     cm8       y        Out     1.380     6.860          
+N_563                            Net                                              1  
+ob_crt_scan.un3_eof_line         cm8       s01      In                6.860          
+ob_crt_scan.un3_eof_line         cm8       y        Out     1.380     8.240          
+ob_crt_scan.un3_eof_line         Net                                              1  
+ob_crt_scan.eof_line             cm8       d3       In                8.240          
+ob_crt_scan.eof_line             cm8       y        Out     5.600     13.840         
+ob_crt_scan.eof_line             Net                                              20 
+ob_crt_scan.un1_pxclk_1          and3a     b        In                13.840         
+ob_crt_scan.un1_pxclk_1          and3a     y        Out     1.550     15.390         
+ob_crt_scan.un1_pxclk_1          Net                                              2  
+ob_crt_scan.un1_vcnt_1_c3        and4      b        In                15.390         
+ob_crt_scan.un1_vcnt_1_c3        and4      y        Out     2.800     18.190         
+ob_crt_scan.N_70                 Net                                              6  
+ob_crt_scan.un1_vcnt_1x_c7       and2      a        In                18.190         
+ob_crt_scan.un1_vcnt_1x_c7       and2      y        Out     1.380     19.570         
+ob_crt_scan.N_77                 Net                                              1  
+ob_crt_scan.un1_vcnt_1[9]        ax1c      a        In                19.570         
+ob_crt_scan.un1_vcnt_1[9]        ax1c      y        Out     1.380     20.950         
+ob_crt_scan.un1_vcnt_1[8]        Net                                              1  
+ob_crt_scan.vreg_10[8]           and2a     b        In                20.950         
+ob_crt_scan.vreg_10[8]           and2a     y        Out     1.380     22.330         
+ob_crt_scan.vreg_10[8]           Net                                              1  
+ob_crt_scan.vcnt[8]              dfc1b     d        In                22.330         
+=====================================================================================
+
+
+Path information for path number 3: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  21.120
+    = Slack (non-critical) :              -13.620
+
+    Starting point:                       ob_crt_scan.hcnt[2] / q
+    Ending point:                         ob_crt_scan.vcnt[8] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                             Pin      Pin               Arrival     Fan
+Name                             Type      Name     Dir     Delay     Time        Out
+-------------------------------------------------------------------------------------
+ob_crt_scan.hcnt[2]              dfe3c     q        Out     4.100     4.100          
+hcnt[2]                          Net                                              10 
+ob_crt_scan.un6_eof_line_442     and2b     b        In                4.100          
+ob_crt_scan.un6_eof_line_442     and2b     y        Out     1.380     5.480          
+N_547                            Net                                              1  
+ob_crt_scan.un6_eof_line_446     cm8       d1       In                5.480          
+ob_crt_scan.un6_eof_line_446     cm8       y        Out     1.550     7.030          
+N_551                            Net                                              2  
+ob_crt_scan.eof_line             cm8       d0       In                7.030          
+ob_crt_scan.eof_line             cm8       y        Out     5.600     12.630         
+ob_crt_scan.eof_line             Net                                              20 
+ob_crt_scan.un1_pxclk_1          and3a     b        In                12.630         
+ob_crt_scan.un1_pxclk_1          and3a     y        Out     1.550     14.180         
+ob_crt_scan.un1_pxclk_1          Net                                              2  
+ob_crt_scan.un1_vcnt_1_c3        and4      b        In                14.180         
+ob_crt_scan.un1_vcnt_1_c3        and4      y        Out     2.800     16.980         
+ob_crt_scan.N_70                 Net                                              6  
+ob_crt_scan.un1_vcnt_1x_c7       and2      a        In                16.980         
+ob_crt_scan.un1_vcnt_1x_c7       and2      y        Out     1.380     18.360         
+ob_crt_scan.N_77                 Net                                              1  
+ob_crt_scan.un1_vcnt_1[9]        ax1c      a        In                18.360         
+ob_crt_scan.un1_vcnt_1[9]        ax1c      y        Out     1.380     19.740         
+ob_crt_scan.un1_vcnt_1[8]        Net                                              1  
+ob_crt_scan.vreg_10[8]           and2a     b        In                19.740         
+ob_crt_scan.vreg_10[8]           and2a     y        Out     1.380     21.120         
+ob_crt_scan.vreg_10[8]           Net                                              1  
+ob_crt_scan.vcnt[8]              dfc1b     d        In                21.120         
+=====================================================================================
+
+
+Path information for path number 4: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  20.950
+    = Slack (non-critical) :              -13.450
+
+    Starting point:                       ob_crt_scan.hcnt[9] / q
+    Ending point:                         ob_crt_scan.vcnt[8] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                             Pin      Pin               Arrival     Fan
+Name                             Type      Name     Dir     Delay     Time        Out
+-------------------------------------------------------------------------------------
+ob_crt_scan.hcnt[9]              dfe3c     q        Out     4.100     4.100          
+hcnt[9]                          Net                                              12 
+ob_crt_scan.un3_eof_line_458     cm8       s00      In                4.100          
+ob_crt_scan.un3_eof_line_458     cm8       y        Out     1.380     5.480          
+N_563                            Net                                              1  
+ob_crt_scan.un3_eof_line         cm8       s01      In                5.480          
+ob_crt_scan.un3_eof_line         cm8       y        Out     1.380     6.860          
+ob_crt_scan.un3_eof_line         Net                                              1  
+ob_crt_scan.eof_line             cm8       d3       In                6.860          
+ob_crt_scan.eof_line             cm8       y        Out     5.600     12.460         
+ob_crt_scan.eof_line             Net                                              20 
+ob_crt_scan.un1_pxclk_1          and3a     b        In                12.460         
+ob_crt_scan.un1_pxclk_1          and3a     y        Out     1.550     14.010         
+ob_crt_scan.un1_pxclk_1          Net                                              2  
+ob_crt_scan.un1_vcnt_1_c3        and4      b        In                14.010         
+ob_crt_scan.un1_vcnt_1_c3        and4      y        Out     2.800     16.810         
+ob_crt_scan.N_70                 Net                                              6  
+ob_crt_scan.un1_vcnt_1x_c7       and2      a        In                16.810         
+ob_crt_scan.un1_vcnt_1x_c7       and2      y        Out     1.380     18.190         
+ob_crt_scan.N_77                 Net                                              1  
+ob_crt_scan.un1_vcnt_1[9]        ax1c      a        In                18.190         
+ob_crt_scan.un1_vcnt_1[9]        ax1c      y        Out     1.380     19.570         
+ob_crt_scan.un1_vcnt_1[8]        Net                                              1  
+ob_crt_scan.vreg_10[8]           and2a     b        In                19.570         
+ob_crt_scan.vreg_10[8]           and2a     y        Out     1.380     20.950         
+ob_crt_scan.vreg_10[8]           Net                                              1  
+ob_crt_scan.vcnt[8]              dfc1b     d        In                20.950         
+=====================================================================================
+
+
+Path information for path number 5: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  18.190
+    = Slack (non-critical) :              -10.690
+
+    Starting point:                       ob_crt_scan.hcnt[9] / q
+    Ending point:                         ob_crt_scan.vcnt[5] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                             Pin      Pin               Arrival     Fan
+Name                             Type      Name     Dir     Delay     Time        Out
+-------------------------------------------------------------------------------------
+ob_crt_scan.hcnt[9]              dfe3c     q        Out     4.100     4.100          
+hcnt[9]                          Net                                              12 
+ob_crt_scan.un3_eof_line_458     cm8       s00      In                4.100          
+ob_crt_scan.un3_eof_line_458     cm8       y        Out     1.380     5.480          
+N_563                            Net                                              1  
+ob_crt_scan.un3_eof_line         cm8       s01      In                5.480          
+ob_crt_scan.un3_eof_line         cm8       y        Out     1.380     6.860          
+ob_crt_scan.un3_eof_line         Net                                              1  
+ob_crt_scan.eof_line             cm8       d3       In                6.860          
+ob_crt_scan.eof_line             cm8       y        Out     5.600     12.460         
+ob_crt_scan.eof_line             Net                                              20 
+ob_crt_scan.un1_pxclk_1          and3a     b        In                12.460         
+ob_crt_scan.un1_pxclk_1          and3a     y        Out     1.550     14.010         
+ob_crt_scan.un1_pxclk_1          Net                                              2  
+ob_crt_scan.un1_vcnt_1_c3        and4      b        In                14.010         
+ob_crt_scan.un1_vcnt_1_c3        and4      y        Out     2.800     16.810         
+ob_crt_scan.N_70                 Net                                              6  
+ob_crt_scan.un1_vcnt_1[6]        cm8       s01      In                16.810         
+ob_crt_scan.un1_vcnt_1[6]        cm8       y        Out     1.380     18.190         
+ob_crt_scan.un1_vcnt_1[5]        Net                                              1  
+ob_crt_scan.vcnt[5]              dfc1b     d        In                18.190         
+=====================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                          Arrival           
+Instance     Type     Pin       Net       Time        Slack 
+                                                            
+------------------------------------------------------------
+ds           Port     ds        ds        0.000       -7.560
+_wr          Port     _wr       _wr       0.000       -0.800
+as           Port     as        as        0.000       0.450 
+md[7:0]      Port     md[1]     md[1]     0.000       1.100 
+md[7:0]      Port     md[0]     md[0]     0.000       1.290 
+md[7:0]      Port     md[2]     md[2]     0.000       1.290 
+md[7:0]      Port     md[3]     md[3]     0.000       1.290 
+md[7:0]      Port     md[4]     md[4]     0.000       1.290 
+md[7:0]      Port     md[5]     md[5]     0.000       1.290 
+md[7:0]      Port     md[6]     md[6]     0.000       1.290 
+============================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                          Required           
+Instance     Type     Pin       Net       Time         Slack 
+                                                             
+-------------------------------------------------------------
+db[7:0]      Port     db[0]     db[0]     10.000       -7.560
+db[7:0]      Port     db[1]     db[1]     10.000       -7.560
+db[7:0]      Port     db[2]     db[2]     10.000       -7.560
+db[7:0]      Port     db[3]     db[3]     10.000       -7.560
+db[7:0]      Port     db[5]     db[5]     10.000       -7.560
+db[7:0]      Port     db[6]     db[6]     10.000       -7.560
+db[7:0]      Port     db[4]     db[4]     10.000       -3.200
+db[7:0]      Port     db[7]     db[7]     10.000       -3.200
+md[7:0]      Port     md[0]     md[0]     10.000       -3.200
+md[7:0]      Port     md[1]     md[1]     10.000       -3.200
+=============================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  17.560
+    = Slack (non-critical) :              -7.560
+
+    Starting point:                       ds / ds
+    Ending point:                         db[7:0] / db[1]
+    The start point is clocked by         System [rising]
+    The end   point is clocked by         System [rising]
+
+Instance / Net                       Pin       Pin               Arrival     Fan
+Name                       Type      Name      Dir     Delay     Time        Out
+--------------------------------------------------------------------------------
+ds                         Port      ds        In      0.000     0.000          
+ds                         Net                                               1  
+ds_pad                     inbuf     pad       In                0.000          
+ds_pad                     inbuf     y         Out     5.400     5.400          
+ds_c                       Net                                               14 
+ds_pad_0                   buff      a         In                5.400          
+ds_pad_0                   buff      y         Out     5.200     10.600         
+ds_c_0                     Net                                               18 
+ob_crt_cpu.dboreg_1[1]     cm8       s00       In                10.600         
+ob_crt_cpu.dboreg_1[1]     cm8       y         Out     1.380     11.980         
+ob_crt_cpu.N_137           Net                                               1  
+ob_crt_cpu.dboreg[1]       cm8       d0        In                11.980         
+ob_crt_cpu.dboreg[1]       cm8       y         Out     1.380     13.360         
+ob_crt_cpu.dboreg[1]       Net                                               1  
+db_pad[1]                  bibuf     d         In                13.360         
+db_pad[1]                  bibuf     pad       Out     4.200     17.560         
+db[1]                      Net                                               1  
+db[7:0]                    Port      db[1]     Out               17.560         
+================================================================================
+
+
+Path information for path number 2: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  17.560
+    = Slack (non-critical) :              -7.560
+
+    Starting point:                       ds / ds
+    Ending point:                         db[7:0] / db[6]
+    The start point is clocked by         System [rising]
+    The end   point is clocked by         System [rising]
+
+Instance / Net                       Pin       Pin               Arrival     Fan
+Name                       Type      Name      Dir     Delay     Time        Out
+--------------------------------------------------------------------------------
+ds                         Port      ds        In      0.000     0.000          
+ds                         Net                                               1  
+ds_pad                     inbuf     pad       In                0.000          
+ds_pad                     inbuf     y         Out     5.400     5.400          
+ds_c                       Net                                               14 
+ds_pad_0                   buff      a         In                5.400          
+ds_pad_0                   buff      y         Out     5.200     10.600         
+ds_c_0                     Net                                               18 
+ob_crt_cpu.dboreg_2[6]     cm8       s10       In                10.600         
+ob_crt_cpu.dboreg_2[6]     cm8       y         Out     1.380     11.980         
+ob_crt_cpu.N_151           Net                                               3  
+ob_crt_cpu.dboreg[6]       cm8       d0        In                11.980         
+ob_crt_cpu.dboreg[6]       cm8       y         Out     1.380     13.360         
+ob_crt_cpu.dboreg[6]       Net                                               1  
+db_pad[6]                  bibuf     d         In                13.360         
+db_pad[6]                  bibuf     pad       Out     4.200     17.560         
+db[6]                      Net                                               1  
+db[7:0]                    Port      db[6]     Out               17.560         
+================================================================================
+
+
+Path information for path number 3: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  17.560
+    = Slack (non-critical) :              -7.560
+
+    Starting point:                       ds / ds
+    Ending point:                         db[7:0] / db[6]
+    The start point is clocked by         System [rising]
+    The end   point is clocked by         System [rising]
+
+Instance / Net                       Pin       Pin               Arrival     Fan
+Name                       Type      Name      Dir     Delay     Time        Out
+--------------------------------------------------------------------------------
+ds                         Port      ds        In      0.000     0.000          
+ds                         Net                                               1  
+ds_pad                     inbuf     pad       In                0.000          
+ds_pad                     inbuf     y         Out     5.400     5.400          
+ds_c                       Net                                               14 
+ds_pad_0                   buff      a         In                5.400          
+ds_pad_0                   buff      y         Out     5.200     10.600         
+ds_c_0                     Net                                               18 
+ob_crt_cpu.dboreg_2[6]     cm8       s01       In                10.600         
+ob_crt_cpu.dboreg_2[6]     cm8       y         Out     1.380     11.980         
+ob_crt_cpu.N_151           Net                                               3  
+ob_crt_cpu.dboreg[6]       cm8       d0        In                11.980         
+ob_crt_cpu.dboreg[6]       cm8       y         Out     1.380     13.360         
+ob_crt_cpu.dboreg[6]       Net                                               1  
+db_pad[6]                  bibuf     d         In                13.360         
+db_pad[6]                  bibuf     pad       Out     4.200     17.560         
+db[6]                      Net                                               1  
+db[7:0]                    Port      db[6]     Out               17.560         
+================================================================================
+
+
+Path information for path number 4: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  17.560
+    = Slack (non-critical) :              -7.560
+
+    Starting point:                       ds / ds
+    Ending point:                         db[7:0] / db[3]
+    The start point is clocked by         System [rising]
+    The end   point is clocked by         System [rising]
+
+Instance / Net                         Pin       Pin               Arrival     Fan
+Name                         Type      Name      Dir     Delay     Time        Out
+----------------------------------------------------------------------------------
+ds                           Port      ds        In      0.000     0.000          
+ds                           Net                                               1  
+ds_pad                       inbuf     pad       In                0.000          
+ds_pad                       inbuf     y         Out     5.400     5.400          
+ds_c                         Net                                               14 
+ds_pad_0                     buff      a         In                5.400          
+ds_pad_0                     buff      y         Out     5.200     10.600         
+ds_c_0                       Net                                               18 
+ob_crt_cpu.dboreg_2[3]       cm8       s10       In                10.600         
+ob_crt_cpu.dboreg_2[3]       cm8       y         Out     1.380     11.980         
+ob_crt_cpu.N_148             Net                                               1  
+ob_crt_cpu.dboreg_i_0[3]     cm8       s10       In                11.980         
+ob_crt_cpu.dboreg_i_0[3]     cm8       y         Out     1.380     13.360         
+ob_crt_cpu.N_315             Net                                               1  
+db_pad[3]                    bibuf     d         In                13.360         
+db_pad[3]                    bibuf     pad       Out     4.200     17.560         
+db[3]                        Net                                               1  
+db[7:0]                      Port      db[3]     Out               17.560         
+==================================================================================
+
+
+Path information for path number 5: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  17.560
+    = Slack (non-critical) :              -7.560
+
+    Starting point:                       ds / ds
+    Ending point:                         db[7:0] / db[6]
+    The start point is clocked by         System [rising]
+    The end   point is clocked by         System [rising]
+
+Instance / Net                       Pin       Pin               Arrival     Fan
+Name                       Type      Name      Dir     Delay     Time        Out
+--------------------------------------------------------------------------------
+ds                         Port      ds        In      0.000     0.000          
+ds                         Net                                               1  
+ds_pad                     inbuf     pad       In                0.000          
+ds_pad                     inbuf     y         Out     5.400     5.400          
+ds_c                       Net                                               14 
+ds_pad_0                   buff      a         In                5.400          
+ds_pad_0                   buff      y         Out     5.200     10.600         
+ds_c_0                     Net                                               18 
+ob_crt_cpu.dboreg_2[6]     cm8       s01       In                10.600         
+ob_crt_cpu.dboreg_2[6]     cm8       y         Out     1.380     11.980         
+ob_crt_cpu.N_151           Net                                               3  
+ob_crt_cpu.dboreg[6]       cm8       d2        In                11.980         
+ob_crt_cpu.dboreg[6]       cm8       y         Out     1.380     13.360         
+ob_crt_cpu.dboreg[6]       Net                                               1  
+db_pad[6]                  bibuf     d         In                13.360         
+db_pad[6]                  bibuf     pad       Out     4.200     17.560         
+db[6]                      Net                                               1  
+db[7:0]                    Port      db[6]     Out               17.560         
+================================================================================
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 135.575 seconds realtime, 135.635 seconds cputime

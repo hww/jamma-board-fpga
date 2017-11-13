@@ -1,0 +1,18 @@
+<!DOCTYPE SimulationProject SYSTEM "hdl-prj.dtd">
+<SimulationProject Logfile="jamma.log" AutoParseProject="1" NameOfComponentToParse="jamma" Keyfile="verilog.key" Language="Verilog" DelayType="typical" AddTopLevelSignals="0" FileNamesShown="1" HideEmptyLists="1" ShowWatch="1" DumpWatch="0" InteractiveMode="1" ParametersAreWatchable="0" ClearLogBeforeCompile="1" CreateLogFileDuringSim="1" > 
+  <FileList>
+    <File>D:\Actelprj\jamma\designer\jamma_ba.v</File>
+  </FileList>
+  <DirList>
+    <Directory>F:\SYNAPT~1\</Directory>
+    <Directory>D:\Actelprj\jamma\hdl</Directory>
+  </DirList>
+  <LibDirList>
+    <Directory>F:\SYNAPT~1\lib\verilog\</Directory>
+    <Directory>F:\Libero\Designer/data/lib/vlog/ex.v</Directory>
+  </LibDirList>
+  <LibExtensionList>
+    <Extension>.v</Extension>
+    <Extension>.vo</Extension>
+  </LibExtensionList>
+</SimulationProject>

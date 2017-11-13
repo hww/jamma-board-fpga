@@ -1,0 +1,35 @@
+f "noname"; #file 0
+f "f:\synplicity\synplify_71a\lib\actel\ex.v"; #file 1
+f "f:\actelprj\crtv10\hdl\crt_clock.v"; #file 2
+f "f:\actelprj\crtv10\hdl\crt_pix.v"; #file 3
+f "f:\actelprj\crtv10\hdl\crt_scan.v"; #file 4
+f "f:\actelprj\crtv10\hdl\fextractor.v"; #file 5
+f "f:\actelprj\crtv10\hdl\quad_tmr.v"; #file 6
+f "f:\actelprj\crtv10\hdl\crt_cookie.v"; #file 7
+f "f:\actelprj\crtv10\hdl\crt_measure.v"; #file 8
+f "f:\actelprj\crtv10\hdl\crt_cpu.v"; #file 9
+f "f:\actelprj\crtv10\hdl\crt_mem.v"; #file 10
+f "f:\actelprj\crtv10\hdl\crt_syncsinv.v"; #file 11
+f "f:\actelprj\crtv10\hdl\crt_sys.v"; #file 12
+f "f:\actelprj\crtv10\hdl\crt_measure_tst.v"; #file 13
+VNAME 'adlib.gnd.netlist'; # view id 0
+VNAME 'adlib.vcc.netlist'; # view id 1
+@ERMRNH8DLMRo8CRM0#DH0N;
+PHR3#Hbsl;R4
+$FR;R
+bfjj:RDVN#$CRR
+$;MNRR8LDHROPOR0MCD0H#;P
+NR#3HblsHR
+4;F;R$
+fbRjR:j0CskR$$R;R
+M@d@4:(U::.U:.IRRFRs	O_s0l#CNk_sC00C#RsPCHoDF;P
+NRN3E#l0HHRMo4N;
+PFR3Lb#F0M8FC;R4
+RNP#_$Mb0NsHF0HMVR"b=oNC6G.n
+";N3PRFosHhCNlRs"O0C_lNs#kCC_0#;0"
+RNP3PH#CDsHF4oR;R
+sfjj:RDN8HoLRMM8RCH0D#t0RhS7
+$h=t7s;
+R:fjj8RNDRHLPROOMDC0HR#0e
+BBSe$=B
+B;

@@ -1,0 +1,169 @@
+m255
+o
+cModel Technology
+df:\Actelprj\crtv10\simulation
+vcrt_clock
+IlRdDA48hDKe<N1zmNf<SH3
+VPoVM1ZI:33jo0jjeV0aB;2
+dF:\Actelprj\crtv10\simulation
+w1052124797
+Ff:/actelprj/crtv10/hdl/crt_clock.v
+L0 12
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_cookie
+IbYmPEHRICjaXi<lWzb8SQ3
+VfXN6SJ?3`GiWJ_6N8AbUm0
+dF:\Actelprj\crtv10\simulation
+w1051271806
+FF:/Actelprj/crtv10/hdl/crt_cookie.v
+L0 13
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_cpu
+I;_2GB<jiS6L;W1Y4B@XL52
+Va7[g8JeTTd6KmPlX=SLz@1
+dF:\Actelprj\crtv10\simulation
+w1051271518
+FF:/Actelprj/crtv10/hdl/crt_cpu.v
+L0 27
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_measure
+IgW9m@j9mVj7dYaSK6^VY01
+Vmo6_odI91_=Om87<68F9A1
+dF:\Actelprj\crtv10\simulation
+w1051187682
+FF:/Actelprj/crtv10/hdl/crt_measure.v
+L0 16
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_measure_test
+I=XX9Uz5?[L[1K`Qd6iRFb3
+V8@n1j=?eZEkKVm`Pb3eI43
+dF:\Actelprj\crtv10\simulation
+w1051195003
+Ff:/actelprj/crtv10/hdl/crt_measure_tst.v
+L0 8
+OW;L;5.5e;17
+r1
+31
+o+incdir+f:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_mem
+I1:PgkcMI<E:9DJe0P4_AH0
+VeB``KRPFikbNJ>U1z?OSn1
+dF:\Actelprj\crtv10\simulation
+w1051193523
+FF:/Actelprj/crtv10/hdl/crt_mem.v
+L0 9
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_pix
+IPdhGAEQJ][ZB_5Gb^UWRX0
+V>JW53eCV1V8F45m?3g3JF0
+dF:\Actelprj\crtv10\simulation
+w1050421471
+FF:/Actelprj/crtv10/hdl/crt_pix.v
+L0 10
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_scan
+IDA^bQ^QcdM;6PoO`iMULa2
+Vg6^?d<6fKLTES4TN4YRQ41
+dF:\Actelprj\crtv10\simulation
+w1051170991
+FF:/Actelprj/crtv10/hdl/crt_scan.v
+L0 12
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_syncsinv
+IiRG<9l;;F_M`5_PT?WkjB1
+VPah_@HAVmT2VWMe3DZBIe3
+dF:\Actelprj\crtv10\simulation
+w1051174509
+FF:/Actelprj/crtv10/hdl/crt_syncsinv.v
+L0 10
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_sys
+In`bDa:9Q2oGO28`@LfWNO3
+VPDe^XPB80hWZfD[@zb4lb2
+dF:\Actelprj\crtv10\simulation
+w1052124514
+Ff:/actelprj/crtv10/hdl/crt_sys.v
+L0 9
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vcrt_top
+IIQHzgI4UM_S;`C3UdZ0N_0
+V`ZoFDe[>W0gg1WU]zJflS0
+dF:\Actelprj\crtv10\simulation
+w1052125727
+Ff:/actelprj/crtv10/hdl/crt_top.v
+L0 16
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vfextractor
+IBkB[YSLlgC8XRIE9?4e2f3
+VG7cYA5OU[4E[fZQfH4h[f0
+dF:\Actelprj\crtv10\simulation
+w1051167200
+FF:/Actelprj/crtv10/hdl/fextractor.v
+L0 10
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vlcel
+I1CbJ?Fz9]82l_UQQX6VoP1
+ViPaH?3@D6diha_G646dOc3
+dF:\Actelprj\crtv10\simulation
+w1051186658
+FF:/Actelprj/crtv10/hdl/quad_tmr.v
+L0 9
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vonefextractor
+I5WKfX0PCM9b^4oi_N8Z[12
+VnH_M3Kd9>NJ]SVm:7e0KM1
+dF:\Actelprj\crtv10\simulation
+w1051167200
+FF:/Actelprj/crtv10/hdl/fextractor.v
+L0 28
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0
+vquad_tmr
+IlNXnc;J[3HRFWWH:C@GZ10
+V=Q>kOJ^;G32G0[dMmR@:z0
+dF:\Actelprj\crtv10\simulation
+w1051186658
+FF:/Actelprj/crtv10/hdl/quad_tmr.v
+L0 15
+OW;L;5.5e;17
+r1
+31
+o+incdir+F:/Actelprj/crtv10/hdl -work presynth -O0

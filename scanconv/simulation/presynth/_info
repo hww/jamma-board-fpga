@@ -1,0 +1,106 @@
+m255
+o
+cModel Technology
+dD:\Actelprj\scanconv\simulation
+vcgaega
+IH=>j0kFFo?FT5CPTg2EfK2
+V0HECT]<4oOgVZhCBI=]E31
+w1040159570
+FD:/Actelprj/scanconv/hdl/cgaega.v
+L0 7
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vmemory
+IBYfhO`zl8Z^S>]]hnWV6<1
+VLYg`=VKENnfVjZQNImg4C2
+w1040156708
+FD:/Actelprj/scanconv/hdl/memory.v
+L0 7
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vmyFAILINGEX
+Ig<f0^K4ICk^Y2Zco8IfNU1
+VkI043kb94m`lfKg`?5<;Y3
+w1040750002
+FD:/Actelprj/scanconv/hdl/scanconv.v
+FD:/Actelprj/scanconv/hdl/vga.v
+L1 11
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+nmy@f@a@i@l@i@n@g@e@x
+vscanconv
+Il8jR6doPz0^]a3mQzWZ;d2
+VUOObBB1m;Xiaz072PTB8_1
+w1040749020
+FD:/Actelprj/scanconv/hdl/scanconv.v
+L0 10
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vstimulus
+I0m5ED8m06IZPK>`W0g]CZ3
+V?okOEj>K8ljB9z:D?NLD<1
+w1040761884
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 2
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vsyncinv
+IW@4EIo<>F0kVZ2eGKXAIk1
+Vbb?XhGKR[@2;7;6QLj?<Y2
+w1040566632
+FD:/Actelprj/scanconv/hdl/syncinv.v
+L0 5
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vtb_clock_inverted_minmax
+IzUTRnc5:0^kH7<X@Gn@DP1
+VH:i^om6^^NC54?]2Be<:01
+w1040749792
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 265
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vtb_clock_minmax
+I>UOkm3ki7U:BM0^i=WJKQ2
+V^Ho=2N><9PIGQc<bRkVKb3
+w1040761884
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 164
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vtestbench
+IEF6dbTfzK:abl6I0o=3@j1
+VhGfW:390DM[oDMzegDH9`2
+w1040761884
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 268
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0
+vvga
+IW7_AO:?h?RY5EEQLkBcYT3
+VXgNIRb4@2136beoPl;=kY3
+w1040750002
+FD:/Actelprj/scanconv/hdl/vga.v
+L0 41
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work presynth -O0

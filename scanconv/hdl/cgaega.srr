@@ -1,0 +1,366 @@
+$ Start of Compile
+#Thu Dec 12 13:42:03 2002
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"D:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"D:\actelprj\scanconv\hdl\cgaega.v"
+Verilog syntax check successful!
+File D:\actelprj\scanconv\hdl\cgaega.v changed - recompiling
+Selecting top level module cgaega
+Synthesizing module cgaega
+@W:"D:\actelprj\scanconv\hdl\cgaega.v":7:12:7:18|Input egamode is unused
+@END
+Process took 1.7 seconds realtime, 1.75 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.cgaega(verilog)
+@N:"d:\actelprj\scanconv\hdl\cgaega.v":87:0:87:5|Found counter in view:work.cgaega(verilog) inst va[7:0]
+
+Added 0 Buffers
+Added 0 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of cgaega 
+
+Target Part: ex64-s
+Combinational Cells:    34 of 128 (27%)
+Sequential Cells:    19 of 64 (30%)
+Total Cells:         53 of 192 (28%)
+Clock Buffers:       2
+IO Cells:            20
+
+Details:
+   and2a:          2	comb:1
+   and3:           2	comb:1
+   and3a:          2	comb:1
+   and4:           3	comb:1
+   cm8:            16	comb:1
+   nand4:          1	comb:2
+   or4c:           1	comb:1
+   xnor2:          1	comb:1
+   xor2:           5	comb:1
+
+   dfc1b:          9	seq:1
+   dfe3c:          10	seq:1
+
+   hclkbuf:        1	clock buffer
+   inbuf:          1	
+   outbuf:         18	
+
+   clkint:         1	clock buffer
+
+Found clock clk with period 10.00ns 
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Thu Dec 12 13:42:21 2002
+#
+
+
+Top view:              cgaega
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -4.110
+
+                   Requested     Estimated     Requested     Estimated                Clock   
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type    
+----------------------------------------------------------------------------------------------
+clk                100.0 MHz     70.9 MHz      10.000        14.110        -4.110     inferred
+==============================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clk       clk     |  10.000      -4.110  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port        Starting      User           Arrival     Required          
+Name        Reference     Constraint     Time        Time         Slack
+            Clock                                                      
+-----------------------------------------------------------------------
+clk         NA            NA             NA          NA           NA   
+egamode     NA            NA             NA          NA           NA   
+reset       NA            NA             NA          NA           NA   
+=======================================================================
+
+
+Output Ports: 
+
+Port      Starting         User           Arrival     Required          
+Name      Reference        Constraint     Time        Time         Slack
+          Clock                                                         
+------------------------------------------------------------------------
+csync     clk (rising)     NA             6.660       10.000       3.340
+ha[0]     clk (rising)     NA             7.100       10.000       2.900
+ha[1]     clk (rising)     NA             6.700       10.000       3.300
+ha[2]     clk (rising)     NA             6.700       10.000       3.300
+ha[3]     clk (rising)     NA             5.900       10.000       4.100
+ha[4]     clk (rising)     NA             7.500       10.000       2.500
+ha[5]     clk (rising)     NA             7.100       10.000       2.900
+ha[6]     clk (rising)     NA             6.700       10.000       3.300
+ha[7]     clk (rising)     NA             6.300       10.000       3.700
+ha[8]     clk (rising)     NA             5.640       10.000       4.360
+va[0]     clk (rising)     NA             7.100       10.000       2.900
+va[1]     clk (rising)     NA             6.700       10.000       3.300
+va[2]     clk (rising)     NA             5.900       10.000       4.100
+va[3]     clk (rising)     NA             5.900       10.000       4.100
+va[4]     clk (rising)     NA             6.300       10.000       3.700
+va[5]     clk (rising)     NA             6.300       10.000       3.700
+va[6]     clk (rising)     NA             5.900       10.000       4.100
+va[7]     clk (rising)     NA             5.640       10.000       4.360
+========================================================================
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                           Arrival           
+Instance     Type      Pin     Net         Time        Slack 
+                                                             
+-------------------------------------------------------------
+ha[1]        dfc1b     q       ha_c[1]     2.500       -4.110
+ha[6]        dfc1b     q       ha_c[6]     2.500       -2.560
+ha[7]        dfc1b     q       ha_c[7]     2.100       -2.160
+ha[4]        dfc1b     q       ha_c[4]     3.300       -1.980
+ha[3]        dfc1b     q       ha_c[3]     1.700       -1.930
+ha[8]        dfc1b     q       ha_c[8]     1.440       -1.670
+ha[5]        dfc1b     q       ha_c[5]     2.900       -1.580
+ha[2]        dfc1b     q       ha_c[2]     2.500       -1.180
+ha[0]        dfc1b     q       ha_c[0]     2.900       0.820 
+va[0]        dfe3c     q       va_c[0]     2.900       1.050 
+=============================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                            Required           
+Instance     Type      Pin     Net          Time         Slack 
+                                                               
+---------------------------------------------------------------
+ha[0]        dfc1b     d       N_81         7.500        -4.110
+ha[7]        dfc1b     d       N_89         7.500        -4.110
+ha[8]        dfc1b     d       N_91         7.500        -4.110
+va[0]        dfe3c     e       vframe23     7.500        -2.730
+va[1]        dfe3c     e       vframe23     7.500        -2.730
+va[2]        dfe3c     e       vframe23     7.500        -2.730
+va[3]        dfe3c     e       vframe23     7.500        -2.730
+va[4]        dfe3c     e       vframe23     7.500        -2.730
+va[5]        dfe3c     e       vframe23     7.500        -2.730
+va[6]        dfe3c     e       vframe23     7.500        -2.730
+===============================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  11.610
+    = Slack (critical) :                  -4.110
+
+    Starting point:                       ha[1] / q
+    Ending point:                         ha[0] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                    Pin      Pin               Arrival     Fan
+Name                    Type      Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------
+ha[1]                   dfc1b     q        Out     2.500     2.500          
+ha_c[1]                 Net                                              6  
+ha_c_i[1]               cm8       s00      In                2.500          
+ha_c_i[1]               cm8       y        Out     1.550     4.050          
+ha_c_i[1]               Net                                              2  
+hcnt_6_i_and2_0_115     and3a     b        In                4.050          
+hcnt_6_i_and2_0_115     and3a     y        Out     1.380     5.430          
+N_140                   Net                                              1  
+hcnt_6_i_and2[0]        cm8       s01      In                5.430          
+hcnt_6_i_and2[0]        cm8       y        Out     4.800     10.230         
+vframe23                Net                                              13 
+hcnt_6_i[0]             and2a     b        In                10.230         
+hcnt_6_i[0]             and2a     y        Out     1.380     11.610         
+N_81                    Net                                              1  
+ha[0]                   dfc1b     d        In                11.610         
+============================================================================
+
+
+Path information for path number 2: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  11.610
+    = Slack (critical) :                  -4.110
+
+    Starting point:                       ha[1] / q
+    Ending point:                         ha[7] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                    Pin      Pin               Arrival     Fan
+Name                    Type      Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------
+ha[1]                   dfc1b     q        Out     2.500     2.500          
+ha_c[1]                 Net                                              6  
+ha_c_i[1]               cm8       s00      In                2.500          
+ha_c_i[1]               cm8       y        Out     1.550     4.050          
+ha_c_i[1]               Net                                              2  
+hcnt_6_i_and2_0_115     and3a     b        In                4.050          
+hcnt_6_i_and2_0_115     and3a     y        Out     1.380     5.430          
+N_140                   Net                                              1  
+hcnt_6_i_and2[0]        cm8       s01      In                5.430          
+hcnt_6_i_and2[0]        cm8       y        Out     4.800     10.230         
+vframe23                Net                                              13 
+hcnt_6_i[7]             cm8       d2       In                10.230         
+hcnt_6_i[7]             cm8       y        Out     1.380     11.610         
+N_89                    Net                                              1  
+ha[7]                   dfc1b     d        In                11.610         
+============================================================================
+
+
+Path information for path number 3: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  11.610
+    = Slack (critical) :                  -4.110
+
+    Starting point:                       ha[1] / q
+    Ending point:                         ha[7] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                    Pin      Pin               Arrival     Fan
+Name                    Type      Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------
+ha[1]                   dfc1b     q        Out     2.500     2.500          
+ha_c[1]                 Net                                              6  
+ha_c_i[1]               cm8       s00      In                2.500          
+ha_c_i[1]               cm8       y        Out     1.550     4.050          
+ha_c_i[1]               Net                                              2  
+hcnt_6_i_and2_0_115     and3a     b        In                4.050          
+hcnt_6_i_and2_0_115     and3a     y        Out     1.380     5.430          
+N_140                   Net                                              1  
+hcnt_6_i_and2[0]        cm8       s01      In                5.430          
+hcnt_6_i_and2[0]        cm8       y        Out     4.800     10.230         
+vframe23                Net                                              13 
+hcnt_6_i[7]             cm8       d1       In                10.230         
+hcnt_6_i[7]             cm8       y        Out     1.380     11.610         
+N_89                    Net                                              1  
+ha[7]                   dfc1b     d        In                11.610         
+============================================================================
+
+
+Path information for path number 4: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  11.610
+    = Slack (critical) :                  -4.110
+
+    Starting point:                       ha[1] / q
+    Ending point:                         ha[8] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                    Pin      Pin               Arrival     Fan
+Name                    Type      Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------
+ha[1]                   dfc1b     q        Out     2.500     2.500          
+ha_c[1]                 Net                                              6  
+ha_c_i[1]               cm8       s00      In                2.500          
+ha_c_i[1]               cm8       y        Out     1.550     4.050          
+ha_c_i[1]               Net                                              2  
+hcnt_6_i_and2_0_115     and3a     b        In                4.050          
+hcnt_6_i_and2_0_115     and3a     y        Out     1.380     5.430          
+N_140                   Net                                              1  
+hcnt_6_i_and2[0]        cm8       s01      In                5.430          
+hcnt_6_i_and2[0]        cm8       y        Out     4.800     10.230         
+vframe23                Net                                              13 
+hcnt_6_i[8]             cm8       d2       In                10.230         
+hcnt_6_i[8]             cm8       y        Out     1.380     11.610         
+N_91                    Net                                              1  
+ha[8]                   dfc1b     d        In                11.610         
+============================================================================
+
+
+Path information for path number 5: 
+    - Setup time:                         2.500
+    = Required time:                      7.500
+
+    - Propagation  time:                  10.230
+    = Slack (non-critical) :              -2.730
+
+    Starting point:                       ha[1] / q
+    Ending point:                         va[4] / e
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                    Pin      Pin               Arrival     Fan
+Name                    Type      Name     Dir     Delay     Time        Out
+----------------------------------------------------------------------------
+ha[1]                   dfc1b     q        Out     2.500     2.500          
+ha_c[1]                 Net                                              6  
+ha_c_i[1]               cm8       s00      In                2.500          
+ha_c_i[1]               cm8       y        Out     1.550     4.050          
+ha_c_i[1]               Net                                              2  
+hcnt_6_i_and2_0_115     and3a     b        In                4.050          
+hcnt_6_i_and2_0_115     and3a     y        Out     1.380     5.430          
+N_140                   Net                                              1  
+hcnt_6_i_and2[0]        cm8       s01      In                5.430          
+hcnt_6_i_and2[0]        cm8       y        Out     4.800     10.230         
+vframe23                Net                                              13 
+va[4]                   dfe3c     e        In                10.230         
+============================================================================
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 15.77 seconds realtime, 15.77 seconds cputime

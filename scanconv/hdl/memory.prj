@@ -1,0 +1,19 @@
+#add_file options
+add_file -verilog "d:/synplicity/Synplify_71A/LIB/actel/EX.v"
+add_file -verilog "d:/actelprj/scanconv/hdl/memory.v"
+
+#device options
+set_option -technology EX
+
+set_option -vlog_std v95
+#add_file options
+
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+project -result_file "D:/Actelprj/scanconv/hdl/memory.edn"

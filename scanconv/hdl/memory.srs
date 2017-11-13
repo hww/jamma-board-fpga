@@ -1,0 +1,115 @@
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version 7.1, Build 158R from Synplicity, Inc.
+# Copyright 1994-1999 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Mon Dec 16 21:45:54 2002
+#
+#
+#OPTIONS:"|-ram|-ID:\\SYNPLICITY\\SYNPLIFY_71A\\lib|-v95|-autosm|-fid2|-sharing|on|-encrypt|-ui"
+#CUR:"D:\\SYNPLICITY\\SYNPLIFY_71A\\BIN\\C_VER.EXE":1019145910l
+#CUR:"D:\\synplicity\\Synplify_71A\\LIB\\actel\\EX.v":968156812l
+#CUR:"D:\\Actelprj\\scanconv\\hdl\\memory.v":1040067948l
+f "D:\synplicity\Synplify_71A\LIB\actel\EX.v"; # file 0
+f "D:\Actelprj\scanconv\hdl\memory.v"; # file 1
+@E@MR@(4::((::R4.I	FsRllCFRs$PHCsD;Fo
+RNP3PH#CDsHF4oR;P
+NRs3FHNohl"CRlFCls;$"
+@HR@44:j.:4::4j4OcRDO	RD
+	;
+@HR@44:4.:4::444snRC0#CR#sCC
+0;
+@HR@44:d.:4::4d4InRsNeoReIso
+N;
+@HR@44:cg:4::4c.8.ReroN(9:jRo8eN:r(j
+9;
+@HR@44:6g:4::46.N.ReroN4j6:9eRNo4Nr69:j;
+
+
+
+@FR@44:(g:4::4(.8.RBroN(9:jRo8BN:r(j
+9;
+@HR@44:Ug:4::4U.N.RBroN4j6:9BRNo4Nr69:j;
+
+
+
+@LR@.4:jg:4::.j.8.RvrCl(9:jRC8vlr_4(89,v_Cl49rn,C8vlr_4689,v_Cl49rc,C8vlr_4d89,v_Cl49r.,C8vlr_4489,v_Cl49rj;
+
+
+
+@FR@.4:4g:4::.4.N.RvrCl4j6:9vRNC4l_,CNvl,_.NlvC_Nd,v_Clcv,NC6l_,CNvl,_nNlvC_N(,v_ClUv,NCgl_rj(:9
+;
+
+@FR@.4:..:4::..4_(ROC#vlOR_#lvC;
+
+
+
+@FR@.4:.j:.::..._6RFCCvlFR_ClvC;
+
+
+
+@FR@.4:.U:.::..d_dRICCvlIR_ClvC;
+
+
+
+@FR@.4:c.:4::.c40dRddR0;
+
+
+
+@FR@.4:6::U.46:cNREDDVO	0R#Nr0Cj
+9;b@R@44:g::44g44:UsR0HvRNC4l_RCNvlR_4V#NDCNRVD;#C
+@bR@g4:44:4::g440URsNHRv_Cl.vRNC.l_RDVN#VCRNCD#;R
+b@:@4g44:44:g:R4U0RsHNlvC_NdRv_CldNRVDR#CV#NDCb;
+R4@@::g44g4:4U:4RH0sRCNvlR_cNlvC_VcRNCD#RDVN#
+C;b@R@44:g::44g44:UsR0HvRNC6l_RCNvlR_6V#NDCNRVD;#C
+@bR@g4:44:4::g440URsNHRv_ClnvRNCnl_RDVN#VCRNCD#;R
+b@:@4g44:44:g:R4U0RsHNlvC_N(Rv_Cl(NRVDR#CV#NDCb;
+R4@@::g44g4:4U:4RH0sRCNvlR_UNlvC_VURNCD#RDVN#
+C;b@R@4d:4::4.44d:nMRHPMRk4s_IeRoNk_M4IoseNsRIe;oN
+@bR@d4:c::cdgc:RPHMR4kM_N#004Cr:Rj9k_M4#00NC:r4j#9R0CN0rj4:9b;
+R4@@::(gcg:(:HgRMkPRMI4_sOB$DkCRMI4_sOB$DICRsOB$D
+C;b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R4@@::64c4:6:8gRVRVCIksAV:r(jI9RsVAkrj(:9eR8o(Nr:Rj9ORD	IoseNb;
+R4@@::c.4cU:.4:dR8NMPdR0RR0d#00NC9rjRN#004Cr9b;
+R4@@::g4.gd:4d:cRGlkRCNvlr_g(9:jRCNvlr_g(9:jRoNBN:r(jN9ReroN(9:jRBIs$COD;R
+b@:@4d4g:Ug:d:Rd4NPM8RR0j0kjRM#4_0CN0rRj9k_M4#00NC9r4;R
+b@:@4n4g:ng:n:Rd4NPM8R)IsCCJk#d04R)IsCCJk#d04ReIsokNRMI4_sOB$D
+C;b@R@4g:n::4n(d4:nMRN8IPRsJ)Ck0C#4IcRsJ)Ck0C#4kcRMI4_sNeoRBIs$COD;R
+b[MFHRC8vlr_4j89Rv_Cl49rjRC8vl9rj;R
+b@:@4g.g:dg:g:R6n0RsHk_Md8lvCrRj98lvC_j4r9sRIArkVjk9RMI4_sOB$D;CR
+[bRFRHM8lvC_44r9vR8C4l_rR498lvCr;49
+@bR@g4:gd:.::gg60nRskHRM8d_vrCl489Rv_Cl49r4RAIsk4Vr9MRk4s_IBD$OC
+R;bFR[H8MRv_Cl49r.RC8vlr_4.89RvrCl.
+9;b@R@4g:g::.dg6g:nsR0HMRkdv_8C.lr9vR8C4l_rR.9IksAV9r.R4kM_BIs$CODRb;
+RH[FMvR8C4l_rRd98lvC_d4r9vR8Cdlr9b;
+R4@@::gg.gd:gn:6RH0sRdkM_C8vl9rdRC8vlr_4dI9RsVAkrRd9k_M4I$sBORDC;R
+b[MFHRC8vlr_4c89Rv_Cl49rcRC8vl9rc;R
+b@:@4g.g:dg:g:R6n0RsHk_Md8lvCrRc98lvC_c4r9sRIArkVck9RMI4_sOB$D;CR
+[bRFRHM8lvC_64r9vR8C4l_rR698lvCr;69
+@bR@g4:gd:.::gg60nRskHRM8d_vrCl689Rv_Cl49r6RAIsk6Vr9MRk4s_IBD$OC
+R;bFR[H8MRv_Cl49rnRC8vlr_4n89RvrCln
+9;b@R@4g:g::.dg6g:nsR0HMRkdv_8Cnlr9vR8C4l_rRn9IksAV9rnR4kM_BIs$CODRb;
+RH[FMvR8C4l_rR(98lvC_(4r9vR8C(lr9b;
+R4@@::gg.gd:gn:6RH0sRdkM_C8vl9r(RC8vlr_4(I9RsVAkrR(9k_M4I$sBORDC;R
+b@:@4(cg:::(ggVR8VRsCI$sBORDCI$sBORDCICs)J#kC0DRO	CRs#RC00
+d;b@R@4j:46(:4:64j:R.gNPM8RAs8kRVnsk8AV0nRdMRk4s_IBD$OCb;
+R4@@::ng4(n:4n:dRPFsR4kM_)IsCCJk#d04R4kM_)IsCCJk#d04R)IsCCJk#d04R)IsCCJk#c04;R
+b@:@44:d444(:d.4:gMRN8FPRClvC4FdRClvC40dRjMRk4s_IBD$OCb;
+R4@@:44c::4(4:c4.NURMR8PICCvlR4dICCvlR4d0IjRsOB$D
+C;b@R@4n:d::.4d.n:g8RN80R#N_0C4:r4j#9R0CN0_44r:Rj9#00NC:r4j09Rs;kC
+@bR@44:jc4::44j:8gRVCVsRo8BN:r(j89RBroN(9:jRC8vlr_4(89,v_Cl49rn,C8vlr_4689,v_Cl49rc,C8vlr_4d89,v_Cl49r.,C8vlr_4489,v_Cl49rj
+RRRR	ODR#sCCs0R8VAknb;
+R4@@::dn.d4:ng:.RPHMR4kM_N#004C_rR49k_M4#00NCr_44#9R0CN0_44r9b;
+R4@@::nccc:n:8gRVCVsR)IsCCJk#I0RsJ)Ck0C#ReIsoONRDs	RC0#CR4kM_)IsCCJk#d04;R
+b@:@4dcc:::dcgVR8V0R#Nr0C49:jRN#004Cr:Rj9#00NCr_449:jR	OD;H
+NRM#$_Cbs#PCsC;R4
+@bR@.4:c.:4:.4d:R4nFRsPk_M40kdRM04_ddR0RvFCCdl4;R
+b@:@4.4c:.c:4.n:4RPFsR4kM__0d4MRk4d_0_04RdCRIv4Cldb;
+R4@@:(44:4c:4g(:RV8V#_CROC#vlOR_#lvCRN#00jCr9DRO	CRs#RC0k_M4#00NCr_44
+9;NHHRMF_DFjbR;R
+b@:@44:.(c.:4(R:g8#VVCFR_ClvCRC_FvRCl#00NC9rjR	ODR#sCCk0RM04_dN;
+HMRH_FDFb;R4
+@bR@44:dc(::(4d:8gRVCV#RC_IvRCl_vICC#lR0CN0rRj9ORD	sCC#0MRk4d_0_
+4;NHHRMF_DF.bR;;
+C

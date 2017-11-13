@@ -1,0 +1,3 @@
+Selecting top level module memory
+Synthesizing module memory
+@W:"D:\Actelprj\scanconv\hdl\memory.v":91:11:91:18|*Output aMem has undriven bits - a simulation mismatch is possible 

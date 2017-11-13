@@ -1,0 +1,16 @@
+@P: crt_sys Part : ex256-s 
+@P: crt_sys Combinational Cells : 314 of 512 (61%) 
+@P: crt_sys Sequential Cells : 131 of 256 (51%) 
+@P: crt_sys Total Cells : 445 of 768 (58%) 
+@P: crt_sys IO Cells : 62 
+@P:  Worst Slack : -14.830
+@P:  clk - Estimated Frequency : 40.3 MHz
+@P:  clk - Requested Frequency : 100.0 MHz
+@P:  clk - Estimated Period : 24.830
+@P:  clk - Requested Period : 10.000
+@P:  clk - Slack : -14.830
+@P:  System - Estimated Frequency : 56.9 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 17.560
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : -7.560

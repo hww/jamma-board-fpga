@@ -1,0 +1,38 @@
+#add_file options
+add_file -verilog "d:/synplicity/Synplify_71A/LIB/actel/EX.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/interface.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/quad_counter.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/jamma.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/vga.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/memory.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/cgaega.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/scanconv.v"
+add_file -verilog "D:/Actelprj/JamaOneChip/hdl/jammaone.v"
+
+#device options
+set_option -technology EX
+
+set_option -vlog_std v95
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#add_file options
+
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+project -result_file "D:/Actelprj/JamaOneChip/hdl/jammaone.edn"

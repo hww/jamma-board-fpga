@@ -1,0 +1,24 @@
+library verilog;
+use verilog.vl_types.all;
+entity mymux_16_6 is
+    port(
+        \select\        : in     vl_logic_vector(3 downto 0);
+        in0             : in     vl_logic_vector(6 downto 0);
+        in1             : in     vl_logic_vector(6 downto 0);
+        in2             : in     vl_logic_vector(6 downto 0);
+        in3             : in     vl_logic_vector(6 downto 0);
+        in4             : in     vl_logic_vector(6 downto 0);
+        in5             : in     vl_logic_vector(6 downto 0);
+        in6             : in     vl_logic_vector(6 downto 0);
+        in7             : in     vl_logic_vector(6 downto 0);
+        in8             : in     vl_logic_vector(6 downto 0);
+        in9             : in     vl_logic_vector(6 downto 0);
+        in10            : in     vl_logic_vector(6 downto 0);
+        in11            : in     vl_logic_vector(6 downto 0);
+        in12            : in     vl_logic_vector(6 downto 0);
+        in13            : in     vl_logic_vector(6 downto 0);
+        in14            : in     vl_logic_vector(6 downto 0);
+        in15            : in     vl_logic_vector(6 downto 0);
+        \out\           : out    vl_logic_vector(6 downto 0)
+    );
+end mymux_16_6;

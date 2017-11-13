@@ -1,0 +1,115 @@
+$ Start of Compile
+#Fri Apr 25 15:44:18 2003
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"F:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_clock.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_pix.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_scan.v"
+@I::"F:\Actelprj\crtv10\hdl\fextractor.v"
+@I::"F:\Actelprj\crtv10\hdl\quad_tmr.v"
+@I::"F:\actelprj\crtv10\hdl\crt_cookie.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_measure.v"
+@I::"F:\actelprj\crtv10\hdl\crt_cpu.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_mem.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_syncsinv.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_sys.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_measure_tst.v"
+Verilog syntax check successful!
+File F:\Actelprj\crtv10\hdl\crt_measure.v changed - recompiling
+Selecting top level module crt_measure_test
+Synthesizing module crt_clock
+Synthesizing module crt_pix
+Synthesizing module crt_scan
+Synthesizing module fextractor
+Synthesizing module lcel
+Synthesizing module quad_tmr
+Synthesizing module crt_cookie
+Synthesizing module onefextractor
+Synthesizing module crt_measure
+Synthesizing module crt_cpu
+Synthesizing module crt_mem
+Synthesizing module crt_syncsinv
+Synthesizing module crt_sys
+Synthesizing module crt_measure_test
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":28:4:28:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":32:4:32:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":37:4:37:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":42:4:42:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":51:4:51:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":62:4:62:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":72:4:72:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":76:4:76:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":86:4:86:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":10:20:10:22|No assignment to clk
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":10:25:10:30|No assignment to _reset
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":12:20:12:22|No assignment to dbi
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":12:25:12:27|No assignment to mdi
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":13:20:13:21|No assignment to ds
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":13:24:13:25|No assignment to as
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":13:28:13:30|No assignment to _wr
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":18:20:18:20|No assignment to a
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":18:23:18:23|No assignment to b
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":19:20:19:24|No assignment to hsync
+@W:"F:\Actelprj\crtv10\hdl\crt_measure_tst.v":19:27:19:31|No assignment to vsync
+@END
+Process took 2.003 seconds realtime, 2.062 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.crt_measure_test(verilog)
+
+Added 0 Buffers
+Added 0 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of crt_measure_test 
+
+Target Part: ex256-s
+Combinational Cells:    0 of 512 (0%)
+Sequential Cells:    0 of 256 (0%)
+Total Cells:         0 of 768 (0%)
+Clock Buffers:       0
+IO Cells:            0
+
+Details:
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Fri Apr 25 15:44:24 2003
+#
+
+
+Top view:              crt_measure_test
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+Interface Information 
+*********************
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 2.233 seconds realtime, 2.283 seconds cputime

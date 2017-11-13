@@ -1,0 +1,16 @@
+#add_file options
+add_file -verilog "C:/synplicity/Synplify_71A/LIB/actel/EX.v"
+add_file -verilog "h:/hardware design work/jamma/jammaprj 1.0/libero/verliog/jamma/hdl/quad_counter.v"
+
+#device options
+set_option -technology eX
+
+set_option -vlog_std v95
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+project -result_file "H:/Hardware design work/JAMMA/JAMMAprj 1.0/Libero/verliog/Jamma/hdl/quad_counter.edn"

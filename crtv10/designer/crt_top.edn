@@ -1,0 +1,51 @@
+(edif crt_top
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2003 4 25 15 55 40)
+      (author "Synplicity, Inc.")
+      (program "Synplify" (version "7.1, Build 174R"))
+     )
+   )
+  (library (rename &ex64 "eX64")
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell gnd (cellType GENERIC)
+       (view netlist (viewType NETLIST)
+         (interface
+           (port y (direction OUTPUT))
+         )
+       )
+    )
+    (cell vcc (cellType GENERIC)
+       (view netlist (viewType NETLIST)
+         (interface
+           (port y (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell crt_top (cellType GENERIC)
+       (view verilog (viewType NETLIST)
+         (interface
+         )
+         (contents
+          (instance GND (viewRef netlist (cellRef gnd (libraryRef &ex64)))          )
+          (instance VCC (viewRef netlist (cellRef vcc (libraryRef &ex64)))          )
+          (net GNDZ0 (joined
+           (portRef y (instanceRef GND))
+          ))
+          (net VCCZ0 (joined
+           (portRef y (instanceRef VCC))
+          ))
+         )
+       )
+    )
+  )
+  (design crt_top (cellRef crt_top (libraryRef work)))
+)

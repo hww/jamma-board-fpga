@@ -1,0 +1,39 @@
+#
+#
+#
+# Created by Synplify Verilog HDL Compiler version 7.1, Build 158R from Synplicity, Inc.
+# Copyright 1994-1999 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Thu Dec 19 17:08:44 2002
+#
+#
+#OPTIONS:"|-ram|-ID:\\SYNPLICITY\\SYNPLIFY_71A\\lib|-v95|-autosm|-fid2|-sharing|on|-encrypt|-ui"
+#CUR:"D:\\SYNPLICITY\\SYNPLIFY_71A\\BIN\\C_VER.EXE":1019145910l
+#CUR:"D:\\synplicity\\Synplify_71A\\LIB\\actel\\EX.v":968156812l
+#CUR:"D:\\actelprj\\jamma\\hdl\\jamma.v":1040310464l
+#CUR:"D:\\Actelprj\\jamma\\hdl\\interface.v":1040310516l
+f "D:\synplicity\Synplify_71A\LIB\actel\EX.v"; # file 0
+f "D:\actelprj\jamma\hdl\jamma.v"; # file 1
+f "D:\Actelprj\jamma\hdl\interface.v"; # file 2
+@E@MR@4.:.(n::n4.:R.4I	FsRFVsM 0#GN0sOs0FRsPCHoDF;P
+NR#3HPHCsDRFo4N;
+PFR3shHoNRlC"FVsM 0#GN0sOs0F"
+;
+
+@HR@4.:.(U::U4.:OgRDO	RD
+	;
+@HR@4.:.(g::g4.:R4jOMDsRsODM
+;
+
+@HR@4.:d(j::j4d:CgRMCNRM
+N;
+@HR@4.:d(4::44d:HURMMRH;
+
+
+
+@FR@4.:dU.::.4d:R4jFRk0F;k0
+@bR@4.:.(g::g4.:R4jHRMPk_M4OMDsR4kM_sODMDROs
+M;b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R.@@:n4d:4j:d6n:RV8VssCRHr#C49:jR#sHC:r4js9RHr#CjH9,MDRO	MRk4D_OsCMRM
+N;b@R@.c:4cd:4:c4c:R.gGPFsR0FkR0FkR#sHC9rjR#sHC9r4;;
+C

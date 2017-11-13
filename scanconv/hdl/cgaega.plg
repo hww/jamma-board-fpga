@@ -1,0 +1,11 @@
+@P: cgaega Part : ex64-s 
+@P: cgaega Combinational Cells : 34 of 128 (27%) 
+@P: cgaega Sequential Cells : 19 of 64 (30%) 
+@P: cgaega Total Cells : 53 of 192 (28%) 
+@P: cgaega IO Cells : 20 
+@P:  Worst Slack : -4.110
+@P:  clk - Estimated Frequency : 70.9 MHz
+@P:  clk - Requested Frequency : 100.0 MHz
+@P:  clk - Estimated Period : 14.110
+@P:  clk - Requested Period : 10.000
+@P:  clk - Slack : -4.110

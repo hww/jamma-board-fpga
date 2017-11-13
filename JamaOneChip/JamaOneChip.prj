@@ -1,0 +1,47 @@
+KEY HDLTechnology "Verilog"
+KEY VendorTechnology "Actel eX Technology"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "jammaone"
+LIST BlockViewMap
+ENDLIST
+LIST BlockSymbols
+ENDLIST
+LIST Schematics
+ENDLIST
+LIST HDLFiles
+VALUE "hdl\jammaone.v"
+VALUE "hdl\quad_counter.v"
+VALUE "hdl\vga.v"
+VALUE "hdl\memory.v"
+VALUE "hdl\scanconv.v"
+VALUE "hdl\cgaega.v"
+VALUE "hdl\jamma.v"
+VALUE "hdl\interface.v"
+ENDLIST
+LIST GENFiles
+ENDLIST
+LIST DesignerFiles
+VALUE "designer\jammaone.edn"
+VALUE "designer\jammaone.v"
+VALUE "designer\jammaone.adb"
+ENDLIST
+LIST StimulusFiles
+VALUE "stimulus\egavga.btim"
+VALUE "stimulus\egavga.v"
+ENDLIST
+LIST RecentFile
+ENDLIST
+LIST StimulusAssociation
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=TRUE
+ReCompileVHDLPackage=FALSE
+IncludeWaveDo=FALSE
+Type=max
+RunTime=10000ns
+Resolution=10ns
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+ENDLIST

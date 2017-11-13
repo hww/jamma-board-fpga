@@ -1,0 +1,14 @@
+Selecting top level module crt_sys
+Synthesizing module crt_clock
+Synthesizing module crt_pix
+Synthesizing module crt_scan
+Synthesizing module fextractor
+Synthesizing module lcel
+Synthesizing module quad_tmr
+Synthesizing module crt_cookie
+Synthesizing module onefextractor
+Synthesizing module crt_measure
+Synthesizing module crt_cpu
+Synthesizing module crt_mem
+Synthesizing module crt_syncsinv
+Synthesizing module crt_sys

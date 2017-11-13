@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 7.1A       
+#-- Project file F:\Actelprj\crtv10\hdl\crt_measure_test.prd
+#-- Written on Thu Apr 24 18:22:26 2003
+
+#
+### Watch Implementation type ###
+#
+watch_impl -active
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

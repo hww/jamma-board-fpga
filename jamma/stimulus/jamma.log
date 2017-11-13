@@ -1,0 +1,13 @@
+WaveFormer Lite simulation log created at Mon Feb 03 06:01:22 2003
+Beginning Compile
+Beginning Phase I
+Compiling source file: D:\Actelprj\jamma\designer\jamma_ba.v
+Finished Phase I
+Entering Phase II...
+Finished Phase II
+Highest level modules:   jamma,    my4COUNTER,    myDFFE,    QUAD_COUNTER,    myREVCOUNTER,    myFRONTEXTRACTOR_1, 
+   myFRONTEXTRACTOR,    myDFFE2_2,    QUAD_COUNTER_3,    myREVCOUNTER_3,    myFRONTEXTRACTOR_7,    myFRONTEXTRACTOR_6, 
+   QUAD_COUNTER_2,    myREVCOUNTER_2,    myFRONTEXTRACTOR_5,    myFRONTEXTRACTOR_4,    myDFFE2,    myNOISE,    myMUX_16_6, 
+   QUAD_COUNTER_1,    myREVCOUNTER_1,    myFRONTEXTRACTOR_3,    myFRONTEXTRACTOR_2,    my16COUNTER,    dc,    myDFFE2_1, 
+   my4BREG, 
+Compile Complete

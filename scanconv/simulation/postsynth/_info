@@ -1,0 +1,44 @@
+m255
+o
+cModel Technology
+dD:\Actelprj\scanconv\simulation
+vcgaega
+IZU3z;mO4DO@Uz1IOAGQd>3
+V8<YPMV>G2[B^G34aKob:12
+w1039725010
+FD:/Actelprj/scanconv/designer/cgaega.v
+L0 4
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work postsynth -O0
+vstimulus
+IP@>Zeh?WFMD:l2ToV;>DL0
+VOiSO52?kkmQzfi4<T=XLE2
+w1039725460
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 2
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work postsynth -O0
+vtb_clock_minmax
+IW;DGTbW51W@klXUT_DoGM2
+V^Ho=2N><9PIGQc<bRkVKb3
+w1039725460
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 88
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work postsynth -O0
+vtestbench
+Im`SeQHl:3V]nJZdWkiC@`1
+VhGfW:390DM[oDMzegDH9`2
+w1039725460
+FD:/Actelprj/scanconv/stimulus/egavga.v
+L0 192
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/scanconv/hdl -work postsynth -O0

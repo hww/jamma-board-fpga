@@ -1,0 +1,138 @@
+m255
+o
+cModel Technology
+dD:\Actelprj\JamaOneChip\simulation
+vcgaega
+Ic4bOdIW>9BdkTae9RYCNB2
+V^bI?jMhcYjA=Ug>e5eQ142
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 635
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vjamma
+I1_0eMdY]ok6J9jO^JSU9h2
+VSHeXVnK`zB>Fl=zNo9;^G3
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 270
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vjammaone
+IbNY9gJ9mY;4oL8QZ50PHb2
+VC]cEn7CXm<d5B_FAHI>BM0
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 765
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vmemory
+IDG7LO5z6h^0M3M^C[:HCQ0
+VJLCcVY>DCHaj`]19Saj3^3
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 517
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vQUAD_COUNTER
+IEUDEdHBkz^^2cz8MbnGiF0
+VV?2[G@Q^Wz<9JI?h7I;0l0
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 205
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r
+vQUAD_COUNTER_1
+In4>8`Ej0RTJiihQ=UWf0g2
+VRVdDgRT[OC:jT_99Ljo9_2
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 4
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r_1
+vQUAD_COUNTER_2
+IRMEY4mC681RhaH0^Z@aoP1
+VXUi_O^^GQND=nU:kjffYn1
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 73
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r_2
+vQUAD_COUNTER_3
+InIGGT8<?9E4S@ROFY^mD^2
+V5^o=4L[?O2U_m3U1b96V@3
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 139
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+n@q@u@a@d_@c@o@u@n@t@e@r_3
+vscanconv
+IYc7NDbS^7=5]Ee3d<dd>42
+Vdh1jjmPTcXaJIjkiXALC<0
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 685
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vstimulus
+IRoVA<[6CR5AlV`57h]]IZ3
+VCJQ>XZF6DWg<i=[HXAHG91
+w1040142004
+FD:/Actelprj/JamaOneChip/stimulus/egavga.v
+L0 2
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vtb_clock_inverted_minmax
+I??UUgc7Y[3fbXUGL::0aS3
+VH:i^om6^^NC54?]2Be<:01
+w1040142004
+FD:/Actelprj/JamaOneChip/stimulus/egavga.v
+L0 261
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vtb_clock_minmax
+IjHX1bS7@08>JD1ko^F_OQ1
+V^Ho=2N><9PIGQc<bRkVKb3
+w1040142004
+FD:/Actelprj/JamaOneChip/stimulus/egavga.v
+L0 160
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0
+vvga
+Ijg6V8TI[a2^93Vn_LaHii2
+VCmB0X:nmDZCaR`nm9:4[;2
+w1040135700
+FD:/Actelprj/JamaOneChip/designer/jammaone.v
+L0 571
+OW;L;5.5e;17
+r1
+31
+o+incdir+D:/Actelprj/JamaOneChip/hdl -work postsynth -O0

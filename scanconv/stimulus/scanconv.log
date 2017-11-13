@@ -1,0 +1,9 @@
+WaveFormer Lite simulation log created at Tue Dec 24 22:30:58 2002
+Beginning Compile
+Beginning Phase I
+Compiling source file: D:\Actelprj\scanconv\designer\scanconv.v
+Finished Phase I
+Entering Phase II...
+Finished Phase II
+Highest level modules:   scanconv,    vga,    myFAILINGEX,    myFAILINGEX_1,    cgaega,    memory, 
+Compile Complete

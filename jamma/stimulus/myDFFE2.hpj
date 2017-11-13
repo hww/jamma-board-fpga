@@ -1,0 +1,18 @@
+<!DOCTYPE SimulationProject SYSTEM "hdl-prj.dtd">
+<SimulationProject Logfile="myDFFE2.log" AutoParseProject="1" NameOfComponentToParse="myDFFE2" Keyfile="verilog.key" Language="Verilog" DelayType="typical" AddTopLevelSignals="0" FileNamesShown="1" HideEmptyLists="1" ShowWatch="1" DumpWatch="0" InteractiveMode="1" ParametersAreWatchable="0" ClearLogBeforeCompile="1" CreateLogFileDuringSim="1" > 
+  <FileList>
+    <File>d:\actelprj\jamma\hdl\interface.v</File>
+  </FileList>
+  <DirList>
+    <Directory>d:\SynaptiCAD\</Directory>
+    <Directory>D:\Actelprj\jamma\hdl</Directory>
+  </DirList>
+  <LibDirList>
+    <Directory>d:\SynaptiCAD\lib\verilog\</Directory>
+    <Directory>D:\LIBERO\DESIGNER/data/lib/vlog/ex.v</Directory>
+  </LibDirList>
+  <LibExtensionList>
+    <Extension>.v</Extension>
+    <Extension>.vo</Extension>
+  </LibExtensionList>
+</SimulationProject>

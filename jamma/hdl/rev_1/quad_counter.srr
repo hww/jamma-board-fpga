@@ -1,0 +1,559 @@
+$ Start of Compile
+#Mon Dec 02 18:16:21 2002
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v"
+@I::"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\quad_counter.v"
+Verilog syntax check successful!
+File H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v changed - recompiling
+Selecting top level module jamma
+Synthesizing module QUAD_COUNTER
+Synthesizing module jamma
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":356:10:356:35|Incomplete sensitivity list - assuming completeness
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":401:19:401:21|Referenced variable nce is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":399:19:399:22|Referenced variable nce1 is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":408:10:408:17|Incomplete sensitivity list - assuming completeness
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":411:38:411:38|Referenced variable P is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":419:27:419:35|Referenced variable ballCnt0q is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":420:28:420:36|Referenced variable ballCnt1q is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":421:28:421:36|Referenced variable ballCnt2q is not in sensitivity list
+@W:"H:\Hardware design work\JAMMA\JAMMAprj 1.0\Libero\verliog\hdl\jamma.v":422:28:422:36|Referenced variable ballCnt3q is not in sensitivity list
+@END
+Process took 0.591 seconds realtime, 0.6 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.jamma(verilog)
+@N:"h:\hardware design work\jamma\jammaprj 1.0\libero\verliog\hdl\jamma.v":302:0:302:5|Found counter in view:work.jamma(verilog) inst bCounter[3:0]
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd1_6t6(fadd1)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd6_nc_5t0(fadd6_nc)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd1_6t6(fadd1)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd6_nc_5t0(fadd6_nc)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd1_6t6(fadd1)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd6_nc_5t0(fadd6_nc)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd1_6t6(fadd1)
+Automatic dissolve during optimization of view:work.jamma(verilog) of fadd6_nc_5t0(fadd6_nc)
+Replicating bCounter[0], fanout 20 segments 2
+Replicating bCounter[1], fanout 18 segments 2
+
+Added 0 Buffers
+Added 2 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of jamma 
+
+Target Part: ex64-s
+Combinational Cells:    131 of 128 (102%)
+Sequential Cells:    71 of 64 (111%)
+Total Cells:         202 of 192 (106%)
+Clock Buffers:       3
+IO Cells:            52
+
+Details:
+   and2:           1	comb:1
+   and2a:          7	comb:1
+   and2b:          2	comb:1
+   and3a:          1	comb:1
+   and4b:          1	comb:1
+   cm8:            52	comb:1
+   cy2a:           12	comb:1
+   maj3:           4	comb:1
+   or4d:           1	comb:1
+   xnor2:          20	comb:1
+   xor2:           30	comb:1
+
+   dfc1b:          32	seq:1
+   dfe3c:          39	seq:1
+
+   bibuf:          5	
+   clkbuf:         2	clock buffer
+   hclkbuf:        1	clock buffer
+   inbuf:          35	
+   outbuf:         5	
+   tribuff:        4	
+
+Found clock clk with period 20.00ns 
+Found clock nDiow with period 20.00ns 
+Found clock nDior with period 20.00ns 
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Mon Dec 02 18:16:31 2002
+#
+
+
+Top view:              jamma
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 4.740
+
+                   Requested     Estimated     Requested     Estimated               Clock   
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type    
+---------------------------------------------------------------------------------------------
+clk                50.0 MHz      65.5 MHz      20.000        15.260        4.740     inferred
+nDior              50.0 MHz      84.6 MHz      20.000        11.820        8.180     inferred
+nDiow              50.0 MHz      78.4 MHz      20.000        12.750        7.250     inferred
+System             50.0 MHz      69.4 MHz      20.000        14.400        5.600     system  
+=============================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+clk       clk     |  20.000      4.740  |  No paths    -      |  No paths    -      |  No paths    -    
+nDior     nDior   |  20.000      8.180  |  No paths    -      |  No paths    -      |  No paths    -    
+nDiow     nDior   |  20.000      9.220  |  No paths    -      |  No paths    -      |  No paths    -    
+nDiow     nDiow   |  20.000      9.120  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port       Starting            User           Arrival     Required           
+Name       Reference           Constraint     Time        Time         Slack 
+           Clock                                                             
+-----------------------------------------------------------------------------
+P[0]       nDiow (rising)      NA             0.000       11.460       11.460
+P[1]       System (rising)     NA             0.000       5.600        5.600 
+P[2]       System (rising)     NA             0.000       5.600        5.600 
+P[3]       System (rising)     NA             0.000       5.600        5.600 
+P[4]       System (rising)     NA             0.000       5.600        5.600 
+P[5]       nDiow (rising)      NA             0.000       11.460       11.460
+P[6]       nDiow (rising)      NA             0.000       11.460       11.460
+P[7]       nDiow (rising)      NA             0.000       11.460       11.460
+P[8]       nDiow (rising)      NA             0.000       11.460       11.460
+P[9]       nDiow (rising)      NA             0.000       11.460       11.460
+P[10]      nDiow (rising)      NA             0.000       11.460       11.460
+P[11]      System (rising)     NA             0.000       5.600        5.600 
+P[12]      System (rising)     NA             0.000       5.600        5.600 
+P[13]      System (rising)     NA             0.000       5.600        5.600 
+P[14]      System (rising)     NA             0.000       5.600        5.600 
+P[15]      nDiow (rising)      NA             0.000       11.460       11.460
+P[16]      nDiow (rising)      NA             0.000       11.460       11.460
+P[17]      nDiow (rising)      NA             0.000       11.460       11.460
+P[18]      nDiow (rising)      NA             0.000       11.460       11.460
+P[19]      nDiow (rising)      NA             0.000       11.460       11.460
+P[20]      nDiow (rising)      NA             0.000       11.460       11.460
+P[21]      nDiow (rising)      NA             0.000       11.460       11.460
+P[22]      nDiow (rising)      NA             0.000       11.460       11.460
+P[23]      nDiow (rising)      NA             0.000       11.460       11.460
+P[24]      nDiow (rising)      NA             0.000       11.460       11.460
+P[25]      nDiow (rising)      NA             0.000       11.460       11.460
+P[26]      nDiow (rising)      NA             0.000       11.460       11.460
+clk        NA                  NA             NA          NA           NA    
+da[0]      System (rising)     NA             0.000       7.250        7.250 
+da[1]      System (rising)     NA             0.000       8.710        8.710 
+da[2]      System (rising)     NA             0.000       10.000       10.000
+dd[0]      nDiow (rising)      NA             0.000       15.920       15.920
+dd[1]      nDiow (rising)      NA             0.000       15.920       15.920
+dd[2]      nDiow (rising)      NA             0.000       15.920       15.920
+dd[3]      nDiow (rising)      NA             0.000       15.920       15.920
+dd[4]      nDiow (rising)      NA             0.000       15.920       15.920
+hsync      System (rising)     NA             0.000       12.840       12.840
+nCS0       System (rising)     NA             0.000       8.450        8.450 
+nCS1       System (rising)     NA             0.000       8.450        8.450 
+nDior      System (rising)     NA             0.000       11.000       11.000
+nDiow      NA                  NA             NA          NA           NA    
+nReset     NA                  NA             NA          NA           NA    
+vsync      System (rising)     NA             0.000       12.840       12.840
+=============================================================================
+
+
+Output Ports: 
+
+Port               Starting            User           Arrival     Required           
+Name               Reference           Constraint     Time        Time         Slack 
+                   Clock                                                             
+-------------------------------------------------------------------------------------
+CoinCounter[1]     nDiow (rising)      NA             5.280       20.000       14.720
+CoinCounter[2]     nDiow (rising)      NA             5.280       20.000       14.720
+CoinLockout[1]     nDiow (rising)      NA             5.280       20.000       14.720
+CoinLockout[2]     nDiow (rising)      NA             5.280       20.000       14.720
+csync              System (rising)     NA             7.160       20.000       12.840
+dd[0]              System (rising)     NA             12.750      20.000       7.250 
+dd[1]              System (rising)     NA             12.750      20.000       7.250 
+dd[2]              System (rising)     NA             12.750      20.000       7.250 
+dd[3]              System (rising)     NA             12.750      20.000       7.250 
+dd[4]              System (rising)     NA             12.750      20.000       7.250 
+dd[5]              System (rising)     NA             12.750      20.000       7.250 
+dd[6]              System (rising)     NA             12.750      20.000       7.250 
+dd[7]              System (rising)     NA             12.750      20.000       7.250 
+iordy              System (rising)     NA             7.950       20.000       12.050
+=====================================================================================
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                                    Arrival          
+Instance                 Type      Pin     Net                      Time        Slack
+                                                                                     
+-------------------------------------------------------------------------------------
+ballCnt0.ballRise[0]     dfc1b     q       ballCnt0.ballRise[0]     1.250       4.740
+ballCnt0.ballRise[1]     dfc1b     q       ballCnt0.ballRise[1]     1.250       4.740
+ballCnt1.ballRise[0]     dfc1b     q       ballCnt1.ballRise[0]     1.250       4.740
+ballCnt1.ballRise[1]     dfc1b     q       ballCnt1.ballRise[1]     1.250       4.740
+ballCnt2.ballRise[0]     dfc1b     q       ballCnt2.ballRise[0]     1.250       4.740
+ballCnt2.ballRise[1]     dfc1b     q       ballCnt2.ballRise[1]     1.250       4.740
+ballCnt3.ballRise[0]     dfc1b     q       ballCnt3.ballRise[0]     1.250       4.740
+ballCnt3.ballRise[1]     dfc1b     q       ballCnt3.ballRise[1]     1.250       4.740
+ballCnt0.ballRise[2]     dfc1b     q       ballCnt0.ballRise[2]     1.080       4.910
+ballCnt0.ballRise[3]     dfc1b     q       ballCnt0.ballRise[3]     1.080       4.910
+=====================================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                          Required          
+Instance          Type      Pin     Net                   Time         Slack
+                                                                            
+----------------------------------------------------------------------------
+ballCnt0.q[3]     dfe3c     d       ballCnt0.cnt_6[3]     17.500       4.740
+ballCnt0.q[4]     dfe3c     d       N_322                 17.500       4.740
+ballCnt0.q[5]     dfe3c     d       N_324                 17.500       4.740
+ballCnt0.q[6]     dfe3c     d       ballCnt0.cnt_6[6]     17.500       4.740
+ballCnt1.q[3]     dfe3c     d       ballCnt1.cnt_6[3]     17.500       4.740
+ballCnt1.q[4]     dfe3c     d       N_270                 17.500       4.740
+ballCnt1.q[5]     dfe3c     d       N_272                 17.500       4.740
+ballCnt1.q[6]     dfe3c     d       ballCnt1.cnt_6[6]     17.500       4.740
+ballCnt2.q[3]     dfe3c     d       ballCnt2.cnt_6[3]     17.500       4.740
+ballCnt2.q[4]     dfe3c     d       N_296                 17.500       4.740
+============================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    - Setup time:                         2.500
+    = Required time:                      17.500
+
+    - Propagation  time:                  12.760
+    = Slack (critical) :                  4.740
+
+    Starting point:                       ballCnt0.ballRise[0] / q
+    Ending point:                         ballCnt0.q[3] / d
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                     Pin      Pin               Arrival     Fan
+Name                     Type      Name     Dir     Delay     Time        Out
+-----------------------------------------------------------------------------
+ballCnt0.ballRise[0]     dfc1b     q        Out     1.250     1.250          
+ballCnt0.ballRise[0]     Net                                              2  
+ballCnt0.rise[0]         xor2      a        In                1.250          
+ballCnt0.rise[0]         xor2      y        Out     1.550     2.800          
+ballCnt0.rise[0]         Net                                              3  
+G_381                    cm8       d1       In                2.800          
+G_381                    cm8       y        Out     4.800     7.600          
+N_414                    Net                                              13 
+I_292                    cy2a      b1       In                7.600          
+I_292                    cy2a      y        Out     2.400     10.000         
+N_318                    Net                                              5  
+I_284                    maj3      c        In                10.000         
+I_284                    maj3      y        Out     1.380     11.380         
+N_319                    Net                                              1  
+G_285                    xor2      a        In                11.380         
+G_285                    xor2      y        Out     1.380     12.760         
+ballCnt0.cnt_6[3]        Net                                              1  
+ballCnt0.q[3]            dfe3c     d        In                12.760         
+=============================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: nDior
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                      Arrival           
+Instance          Type      Pin     Net               Time        Slack 
+                                                                        
+------------------------------------------------------------------------
+bCounter_0[0]     dfe3c     q       bCounter_0[0]     4.500       8.180 
+bCounter[2]       dfe3c     q       bCounter[2]       4.100       8.940 
+bCounter_0[1]     dfe3c     q       bCounter_0[1]     4.100       8.940 
+bCounter[0]       dfe3c     q       bCounter[0]       3.700       9.340 
+bCounter[1]       dfe3c     q       bCounter[1]       3.300       9.380 
+bCounter[3]       dfe3c     q       bCounter[3]       3.700       10.720
+noice[5]          dfc1b     q       noice[5]          1.250       13.170
+noice[15]         dfc1b     q       noice[15]         1.250       13.170
+noice[1]          dfc1b     q       noice[1]          1.250       16.250
+noice[2]          dfc1b     q       noice[2]          1.250       16.250
+========================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                    Required           
+Instance        Type      Pin       Net             Time         Slack 
+                                                                       
+-----------------------------------------------------------------------
+dd[7:0]         Port      dd[5]     dd_0[5]         20.000       8.180 
+dd[7:0]         Port      dd[6]     dd_0[6]         20.000       8.180 
+dd[7:0]         Port      dd[7]     dd_0[7]         20.000       8.180 
+dd[7:0]         Port      dd[0]     dd[0]           20.000       8.540 
+dd[7:0]         Port      dd[1]     dd[1]           20.000       8.540 
+dd[7:0]         Port      dd[2]     dd[2]           20.000       8.540 
+dd[7:0]         Port      dd[3]     dd[3]           20.000       8.540 
+dd[7:0]         Port      dd[4]     dd[4]           20.000       8.540 
+bCounter[3]     dfe3c     d         bCounter_l3     17.500       10.680
+bCounter[2]     dfe3c     d         bCounter_l2     17.500       12.020
+=======================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    = Required time:                      20.000
+
+    - Propagation  time:                  11.820
+    = Slack (non-critical) :              8.180
+
+    Starting point:                       bCounter_0[0] / q
+    Ending point:                         dd[7:0] / dd[7]
+    The start point is clocked by         nDior [rising] on pin clk
+    The end   point is clocked by         nDior [rising]
+
+Instance / Net                 Pin       Pin               Arrival     Fan
+Name               Type        Name      Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+bCounter_0[0]      dfe3c       q         Out     4.500     4.500          
+bCounter_0[0]      Net                                                 11 
+G_337_n            and2        b         In                4.500          
+G_337_n            and2        y         Out     1.740     6.240          
+N_356_n            Net                                                 3  
+G_343              cm8         s01       In                6.240          
+G_343              cm8         y         Out     1.380     7.620          
+N_362              Net                                                 1  
+dd_pad[7]          tribuff     d         In                7.620          
+dd_pad[7]          tribuff     pad       Out     4.200     11.820         
+dd_0[7]            Net                                                 1  
+dd[7:0]            Port        dd[7]     Out               11.820         
+==========================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: nDiow
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                             Arrival           
+Instance     Type      Pin       Net         Time        Slack 
+                                                               
+---------------------------------------------------------------
+bDevice      dfe3c     q         bDevice     1.080       9.120 
+P[26:0]      Port      P[0]      P[0]        0.000       11.460
+P[26:0]      Port      P[5]      P[5]        0.000       11.460
+P[26:0]      Port      P[6]      P[6]        0.000       11.460
+P[26:0]      Port      P[7]      P[7]        0.000       11.460
+P[26:0]      Port      P[8]      P[8]        0.000       11.460
+P[26:0]      Port      P[9]      P[9]        0.000       11.460
+P[26:0]      Port      P[10]     P[10]       0.000       11.460
+P[26:0]      Port      P[15]     P[15]       0.000       11.460
+P[26:0]      Port      P[16]     P[16]       0.000       11.460
+===============================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                   Required          
+Instance        Type      Pin       Net            Time         Slack
+                                                                     
+---------------------------------------------------------------------
+dd[7:0]         Port      dd[0]     dd[0]          20.000       9.120
+dd[7:0]         Port      dd[1]     dd[1]          20.000       9.120
+dd[7:0]         Port      dd[2]     dd[2]          20.000       9.120
+dd[7:0]         Port      dd[3]     dd[3]          20.000       9.120
+dd[7:0]         Port      dd[4]     dd[4]          20.000       9.120
+dd[7:0]         Port      dd[5]     dd_0[5]        20.000       9.120
+dd[7:0]         Port      dd[6]     dd_0[6]        20.000       9.120
+dd[7:0]         Port      dd[7]     dd_0[7]        20.000       9.120
+bCounter[0]     dfe3c     e         bCounter17     17.500       9.220
+bCounter[1]     dfe3c     e         bCounter17     17.500       9.220
+=====================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    = Required time:                      20.000
+
+    - Propagation  time:                  10.880
+    = Slack (non-critical) :              9.120
+
+    Starting point:                       bDevice / q
+    Ending point:                         dd[7:0] / dd[0]
+    The start point is clocked by         nDiow [rising] on pin clk
+    The end   point is clocked by         nDiow [rising]
+
+Instance / Net               Pin       Pin               Arrival     Fan
+Name               Type      Name      Dir     Delay     Time        Out
+------------------------------------------------------------------------
+bDevice            dfe3c     q         Out     1.080     1.080          
+bDevice            Net                                               1  
+G_350              and3a     c         In                1.080          
+G_350              and3a     y         Out     2.000     3.080          
+acces              Net                                               4  
+read_0_and2        and4b     c         In                3.080          
+read_0_and2        and4b     y         Out     3.600     6.680          
+read               Net                                               8  
+dd_pad[0]          bibuf     e         In                6.680          
+dd_pad[0]          bibuf     pad       Out     4.200     10.880         
+dd[0]              Net                                               1  
+dd[7:0]            Port      dd[0]     Out               10.880         
+========================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                          Arrival          
+Instance     Type     Pin       Net       Time        Slack
+                                                           
+-----------------------------------------------------------
+P[26:0]      Port     P[1]      P[1]      0.000       5.600
+P[26:0]      Port     P[2]      P[2]      0.000       5.600
+P[26:0]      Port     P[3]      P[3]      0.000       5.600
+P[26:0]      Port     P[4]      P[4]      0.000       5.600
+P[26:0]      Port     P[11]     P[11]     0.000       5.600
+P[26:0]      Port     P[12]     P[12]     0.000       5.600
+P[26:0]      Port     P[13]     P[13]     0.000       5.600
+P[26:0]      Port     P[14]     P[14]     0.000       5.600
+da[2:0]      Port     da[0]     da[0]     0.000       7.250
+nCS0         Port     nCS0      nCS0      0.000       8.450
+===========================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                          Required          
+Instance          Type      Pin     Net                   Time         Slack
+                                                                            
+----------------------------------------------------------------------------
+ballCnt0.q[3]     dfe3c     d       ballCnt0.cnt_6[3]     17.500       5.600
+ballCnt0.q[4]     dfe3c     d       N_322                 17.500       5.600
+ballCnt0.q[5]     dfe3c     d       N_324                 17.500       5.600
+ballCnt0.q[6]     dfe3c     d       ballCnt0.cnt_6[6]     17.500       5.600
+ballCnt1.q[3]     dfe3c     d       ballCnt1.cnt_6[3]     17.500       5.600
+ballCnt1.q[4]     dfe3c     d       N_270                 17.500       5.600
+ballCnt1.q[5]     dfe3c     d       N_272                 17.500       5.600
+ballCnt1.q[6]     dfe3c     d       ballCnt1.cnt_6[6]     17.500       5.600
+ballCnt2.q[3]     dfe3c     d       ballCnt2.cnt_6[3]     17.500       5.600
+ballCnt2.q[4]     dfe3c     d       N_296                 17.500       5.600
+============================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    - Setup time:                         2.500
+    = Required time:                      17.500
+
+    - Propagation  time:                  11.900
+    = Slack (non-critical) :              5.600
+
+    Starting point:                       P[26:0] / P[1]
+    Ending point:                         ballCnt0.q[3] / d
+    The start point is clocked by         clk [rising]
+    The end   point is clocked by         clk [rising] on pin clk
+
+Instance / Net                  Pin      Pin               Arrival     Fan
+Name                  Type      Name     Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+P[26:0]               Port      P[1]     In      0.000     0.000          
+P[1]                  Net                                              1  
+P_pad[1]              inbuf     pad      In                0.000          
+P_pad[1]              inbuf     y        Out     1.940     1.940          
+P_c[1]                Net                                              3  
+G_381                 cm8       s00      In                1.940          
+G_381                 cm8       y        Out     4.800     6.740          
+N_414                 Net                                              13 
+I_292                 cy2a      b1       In                6.740          
+I_292                 cy2a      y        Out     2.400     9.140          
+N_318                 Net                                              5  
+I_284                 maj3      c        In                9.140          
+I_284                 maj3      y        Out     1.380     10.520         
+N_319                 Net                                              1  
+G_285                 xor2      a        In                10.520         
+G_285                 xor2      y        Out     1.380     11.900         
+ballCnt0.cnt_6[3]     Net                                              1  
+ballCnt0.q[3]         dfe3c     d        In                11.900         
+==========================================================================
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 9.003 seconds realtime, 9.002 seconds cputime

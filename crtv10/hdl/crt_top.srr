@@ -1,0 +1,117 @@
+$ Start of Compile
+#Fri Apr 25 15:55:36 2003
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"F:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_clock.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_pix.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_scan.v"
+@I::"F:\Actelprj\crtv10\hdl\fextractor.v"
+@I::"F:\Actelprj\crtv10\hdl\quad_tmr.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_cookie.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_measure.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_cpu.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_mem.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_syncsinv.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_sys.v"
+@I::"F:\Actelprj\crtv10\hdl\crt_top.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module crt_top
+Synthesizing module crt_clock
+Synthesizing module crt_pix
+Synthesizing module crt_scan
+Synthesizing module fextractor
+Synthesizing module lcel
+Synthesizing module quad_tmr
+Synthesizing module crt_cookie
+Synthesizing module onefextractor
+Synthesizing module crt_measure
+Synthesizing module crt_cpu
+Synthesizing module crt_mem
+Synthesizing module crt_syncsinv
+Synthesizing module crt_sys
+Synthesizing module crt_top
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":29:4:29:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":33:4:33:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":38:4:38:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":44:4:44:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":54:4:54:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":74:4:74:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":96:4:96:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":114:4:114:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":126:4:126:10|Ignoring initial statement
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":10:20:10:22|No assignment to clk
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":10:25:10:30|No assignment to _reset
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":12:20:12:22|No assignment to dbi
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":12:25:12:27|No assignment to mdi
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":13:20:13:21|No assignment to ds
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":13:24:13:25|No assignment to as
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":13:28:13:30|No assignment to _wr
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":18:20:18:20|No assignment to a
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":18:23:18:23|No assignment to b
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":19:20:19:24|No assignment to hsync
+@W:"F:\Actelprj\crtv10\hdl\crt_top.v":19:27:19:31|No assignment to vsync
+@END
+Process took 0.56 seconds realtime, 0.62 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.crt_top(verilog)
+
+Added 0 Buffers
+Added 0 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of crt_top 
+
+Target Part: ex64-s
+Combinational Cells:    0 of 128 (0%)
+Sequential Cells:    0 of 64 (0%)
+Total Cells:         0 of 192 (0%)
+Clock Buffers:       0
+IO Cells:            0
+
+Details:
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Fri Apr 25 15:55:40 2003
+#
+
+
+Top view:              crt_top
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+Interface Information 
+*********************
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 2.023 seconds realtime, 2.113 seconds cputime

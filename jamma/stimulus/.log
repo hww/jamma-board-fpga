@@ -1,0 +1,7 @@
+WaveFormer Lite simulation log created at Thu Dec 19 22:04:59 2002
+Beginning Compile
+Beginning Phase I
+Finished Phase I
+Entering Phase II...
+Finished Phase II
+: L0: error: Probably because we are simulating independently with no source files in the project

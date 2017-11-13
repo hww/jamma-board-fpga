@@ -1,0 +1,6 @@
+@P: crt_measure_test Part : ex256-s 
+@P: crt_measure_test Combinational Cells : 0 of 512 (0%) 
+@P: crt_measure_test Sequential Cells : 0 of 256 (0%) 
+@P: crt_measure_test Total Cells : 0 of 768 (0%) 
+@P: crt_measure_test IO Cells : 0 
+@P:  Worst Slack : NA

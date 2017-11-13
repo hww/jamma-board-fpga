@@ -1,0 +1,71 @@
+KEY LIBERO "4.6.3.12"
+KEY HDLTechnology "Verilog"
+KEY VendorTechnology "Actel eX Technology"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "crt_sys"
+LIST BlockViewMap
+ENDLIST
+LIST BlockSymbols
+ENDLIST
+LIST Schematics
+ENDLIST
+LIST HDLFiles
+VALUE "hdl\crt_pix.v"
+VALUE "hdl\mouse_fextractor.v"
+VALUE "hdl\fextractor.v"
+VALUE "hdl\crt_scan.v"
+VALUE "hdl\crt_clock.v"
+VALUE "hdl\crt_syncsinv.v"
+VALUE "hdl\quad_tmr.v"
+VALUE "hdl\crt_measure.v"
+VALUE "hdl\crt_top.v"
+VALUE "hdl\crt_mem.v"
+VALUE "hdl\crt_measure_tst.v"
+VALUE "hdl\crt_sys.v"
+VALUE "hdl\crt_cpu.v"
+VALUE "hdl\crt_cookie.v"
+ENDLIST
+LIST GENFiles
+ENDLIST
+LIST DesignerFiles
+VALUE "designer\crt_top.edn"
+VALUE "designer\crt_top.v"
+VALUE "designer\crt_top.adb"
+VALUE "designer\crt_sys.edn"
+VALUE "designer\crt_sys.adb"
+VALUE "designer\crt_sys.afm"
+VALUE "designer\crt_sys.prb"
+VALUE "designer\crt_sys.v"
+VALUE "designer\crt_measure_test.edn"
+VALUE "designer\crt_measure_test.v"
+VALUE "designer\crt_sys_ba.sdf"
+VALUE "designer\crt_sys_ba.v"
+ENDLIST
+LIST StimulusFiles
+ENDLIST
+LIST RecentFile
+ENDLIST
+LIST StimulusAssociation
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=TRUE
+CompileVHDLPackage=TRUE
+IncludeWaveDo=FALSE
+Type=max
+RunTime=20000000ns
+Resolution=1ns
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<crt_sys_0>
+Location=modelsim
+AdditionalParameter=
+ENDLIST
+LIST StimulusOptions
+Location=C:\SynaptiCAD\syncad.exe
+AdditionalParameter=-pwflite
+ENDLIST
+LIST SynthesisOptions
+Location=C:\synplicity\Synplify_72\bin\synplify.exe
+AdditionalParameter=
+ENDLIST

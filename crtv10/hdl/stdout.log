@@ -1,0 +1,23 @@
+Project not found: "F:\Actelprj\crtv10\hdl\crt_measure_test.prj"
+
+Starting:  f:\synplicity\Synplify_71A\bin\mbin\synplify.exe
+Version:   7.1A       
+Date:      Fri Apr 25 15:55:36 2003
+Arguments: F:\Actelprj\crtv10\hdl\crt_top.prj
+License: synplify_pc
+
+
+Running synthesis on crt_top:hdl
+
+log file: "F:\Actelprj\crtv10\hdl\crt_top.srr"
+
+Running verilog Syntax check...
+Verilog Compiler Completed
+
+Verilog Compiler: 0 errors, 20 warnings, 0 notes
+
+Mapper Completed
+
+Mapper: 0 errors, 0 warnings, 4 notes
+
+Total: 0 errors, 20 warnings, 4 notes

@@ -1,0 +1,26 @@
+@P: jamma Part : ex64-s 
+@P: jamma Combinational Cells : 131 of 128 (102%) 
+@P: jamma Sequential Cells : 71 of 64 (111%) 
+@P: jamma Total Cells : 202 of 192 (106%) 
+@P: jamma IO Cells : 52 
+@P:  Worst Slack : 4.740
+@P:  clk - Estimated Frequency : 65.5 MHz
+@P:  clk - Requested Frequency : 50.0 MHz
+@P:  clk - Estimated Period : 15.260
+@P:  clk - Requested Period : 20.000
+@P:  clk - Slack : 4.740
+@P:  nDior - Estimated Frequency : 84.6 MHz
+@P:  nDior - Requested Frequency : 50.0 MHz
+@P:  nDior - Estimated Period : 11.820
+@P:  nDior - Requested Period : 20.000
+@P:  nDior - Slack : 8.180
+@P:  nDiow - Estimated Frequency : 78.4 MHz
+@P:  nDiow - Requested Frequency : 50.0 MHz
+@P:  nDiow - Estimated Period : 12.750
+@P:  nDiow - Requested Period : 20.000
+@P:  nDiow - Slack : 7.250
+@P:  System - Estimated Frequency : 69.4 MHz
+@P:  System - Requested Frequency : 50.0 MHz
+@P:  System - Estimated Period : 14.400
+@P:  System - Requested Period : 20.000
+@P:  System - Slack : 5.600

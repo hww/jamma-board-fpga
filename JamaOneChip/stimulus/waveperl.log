@@ -1,0 +1,7 @@
+Redirecting stdout to D:\Actelprj\JamaOneChip\stimulus\egavga.v
+Compiling and executing D:\SYNAPTICAD\perl\verilogtb.epl at Tue Dec 17 21:49:41 2002
+Eval D:\SYNAPTICAD\perl\verilogtb.epl
+Script D:\SYNAPTICAD\perl\verilogtb.epl cached
+Restoring stdout and closing D:\Actelprj\JamaOneChip\stimulus\egavga.v
+eval error: Can't call method "IsBus" on an undefined value at (eval 7) line 116.
+

@@ -1,0 +1,499 @@
+$ Start of Compile
+#Mon Dec 16 21:46:42 2002
+
+Synplicity Verilog Compiler, version 7.1, Build 158R, built Apr 18 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+
+@I::"D:\synplicity\Synplify_71A\LIB\actel\EX.v"
+@I::"D:\actelprj\scanconv\hdl\memory.v"
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module memory
+Synthesizing module memory
+@W:"D:\Actelprj\scanconv\hdl\memory.v":91:11:91:18|*Output aMem has undriven bits - a simulation mismatch is possible 
+@END
+Process took 0.28 seconds realtime, 0.33 seconds cputime
+Synplicity Actel Technology Mapper, version 7.1, Build 174R, built Jun  5 2002
+Copyright (C) 1994-2002, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 14
+List of partitions to map:
+   view:work.memory(verilog)
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_8 on net aMem_8 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_7 on net aMem_7 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_6 on net aMem_6 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_5 on net aMem_5 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_4 on net aMem_4 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_3 on net aMem_3 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_2 on net aMem_2 has its enable tied to GND (module memory) 
+@W:"d:\actelprj\scanconv\hdl\memory.v":91:11:91:18|tristate driver aMem_1 on net aMem_1 has its enable tied to GND (module memory) 
+Automatic dissolve during optimization of view:work.memory(verilog) of I_43(inc2)
+@W:|tristate driver aMem_1_0 on net aMem_1 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_2_0 on net aMem_2 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_3_0 on net aMem_3 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_4_0 on net aMem_4 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_5_0 on net aMem_5 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_6_0 on net aMem_6 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_7_0 on net aMem_7 has its enable tied to GND (module memory) 
+@W:|tristate driver aMem_8_0 on net aMem_8 has its enable tied to GND (module memory) 
+
+Added 0 Buffers
+Added 0 Cells via replication
+---------------------------------------
+Synthesized design as a chip
+Resource Usage Report of memory 
+
+Target Part: ex64-s
+Combinational Cells:    19 of 128 (15%)
+Sequential Cells:    23 of 64 (36%)
+Total Cells:         42 of 192 (22%)
+Clock Buffers:       1
+IO Cells:            64
+
+Details:
+   and2:           1	comb:1
+   cm8:            14	comb:1
+   or2a:           1	comb:1
+   or3b:           1	comb:1
+   xnor2:          1	comb:1
+   xor2:           1	comb:1
+
+   df1:            2	seq:1
+   dfe1b:          8	seq:1
+   dfe3c:          10	seq:1
+   dfe4f:          3	seq:1
+
+   bibuf:          8	
+   hclkbuf:        1	clock buffer
+   inbuf:          26	
+   outbuf:         21	
+   tribuff:        8	
+
+Found clock clk with period 10.00ns 
+
+
+##### START TIMING REPORT #####
+# Timing Report written on Mon Dec 16 21:46:47 2002
+#
+
+
+Top view:              memory
+Slew propagation mode: worst
+Paths requested:       5
+Constraint File(s):    
+@N| This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N| Clock constraints cover all FF-to-FF, FF-to-output, input-to-FF and input-to-output paths associated with a particular clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -3.100
+
+                   Requested     Estimated     Requested     Estimated                Clock   
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type    
+----------------------------------------------------------------------------------------------
+clk                100.0 MHz     76.3 MHz      10.000        13.100        -3.100     inferred
+System             100.0 MHz     139.7 MHz     10.000        7.160         2.840      system  
+==============================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clk       clk     |  10.000      -3.100  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port         Starting            User           Arrival     Required          
+Name         Reference           Constraint     Time        Time         Slack
+             Clock                                                            
+------------------------------------------------------------------------------
+aCga[0]      System (rising)     NA             0.000       2.840        2.840
+aCga[1]      System (rising)     NA             0.000       2.840        2.840
+aCga[2]      System (rising)     NA             0.000       2.840        2.840
+aCga[3]      System (rising)     NA             0.000       2.840        2.840
+aCga[4]      System (rising)     NA             0.000       2.840        2.840
+aCga[5]      System (rising)     NA             0.000       2.840        2.840
+aCga[6]      System (rising)     NA             0.000       2.840        2.840
+aCga[7]      System (rising)     NA             0.000       2.840        2.840
+aCga[8]      NA                  NA             NA          NA           NA   
+aCga[9]      NA                  NA             NA          NA           NA   
+aCga[10]     NA                  NA             NA          NA           NA   
+aCga[11]     NA                  NA             NA          NA           NA   
+aCga[12]     NA                  NA             NA          NA           NA   
+aCga[13]     NA                  NA             NA          NA           NA   
+aCga[14]     NA                  NA             NA          NA           NA   
+aCga[15]     NA                  NA             NA          NA           NA   
+aVga[0]      System (rising)     NA             0.000       2.840        2.840
+aVga[1]      System (rising)     NA             0.000       2.840        2.840
+aVga[2]      System (rising)     NA             0.000       2.840        2.840
+aVga[3]      System (rising)     NA             0.000       2.840        2.840
+aVga[4]      System (rising)     NA             0.000       2.840        2.840
+aVga[5]      System (rising)     NA             0.000       2.840        2.840
+aVga[6]      System (rising)     NA             0.000       2.840        2.840
+aVga[7]      System (rising)     NA             0.000       2.840        2.840
+aVga[8]      NA                  NA             NA          NA           NA   
+aVga[9]      NA                  NA             NA          NA           NA   
+aVga[10]     NA                  NA             NA          NA           NA   
+aVga[11]     NA                  NA             NA          NA           NA   
+aVga[12]     NA                  NA             NA          NA           NA   
+aVga[13]     NA                  NA             NA          NA           NA   
+aVga[14]     NA                  NA             NA          NA           NA   
+aVga[15]     NA                  NA             NA          NA           NA   
+clk          NA                  NA             NA          NA           NA   
+dMem[0]      clk (rising)        NA             0.000       5.920        5.920
+dMem[1]      clk (rising)        NA             0.000       5.920        5.920
+dMem[2]      clk (rising)        NA             0.000       5.920        5.920
+dMem[3]      clk (rising)        NA             0.000       5.920        5.920
+dMem[4]      clk (rising)        NA             0.000       5.920        5.920
+dMem[5]      clk (rising)        NA             0.000       5.920        5.920
+dMem[6]      clk (rising)        NA             0.000       5.920        5.920
+dMem[7]      clk (rising)        NA             0.000       5.920        5.920
+dVga[0]      clk (rising)        NA             0.000       5.920        5.920
+dVga[1]      clk (rising)        NA             0.000       5.920        5.920
+dVga[2]      clk (rising)        NA             0.000       5.920        5.920
+dVga[3]      clk (rising)        NA             0.000       5.920        5.920
+dVga[4]      clk (rising)        NA             0.000       5.920        5.920
+dVga[5]      clk (rising)        NA             0.000       5.920        5.920
+dVga[6]      clk (rising)        NA             0.000       5.920        5.920
+dVga[7]      clk (rising)        NA             0.000       5.920        5.920
+reset        NA                  NA             NA          NA           NA   
+wrVga        clk (rising)        NA             0.000       1.960        1.960
+==============================================================================
+
+
+Output Ports: 
+
+Port         Starting         User           Arrival     Required           
+Name         Reference        Constraint     Time        Time         Slack 
+             Clock                                                          
+----------------------------------------------------------------------------
+_csMem       clk (rising)     NA             5.280       10.000       4.720 
+_oeMem       clk (rising)     NA             5.280       10.000       4.720 
+_weMem       clk (rising)     NA             5.280       10.000       4.720 
+aMem[0]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[1]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[2]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[3]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[4]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[5]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[6]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[7]      clk (rising)     NA             10.880      10.000       -0.880
+aMem[8]      NA               NA             NA          NA           NA    
+aMem[9]      NA               NA             NA          NA           NA    
+aMem[10]     NA               NA             NA          NA           NA    
+aMem[11]     NA               NA             NA          NA           NA    
+aMem[12]     NA               NA             NA          NA           NA    
+aMem[13]     NA               NA             NA          NA           NA    
+aMem[14]     NA               NA             NA          NA           NA    
+aMem[15]     NA               NA             NA          NA           NA    
+dCga[0]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[1]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[2]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[3]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[4]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[5]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[6]      clk (rising)     NA             5.280       10.000       4.720 
+dCga[7]      clk (rising)     NA             5.280       10.000       4.720 
+dMem[0]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[1]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[2]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[3]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[4]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[5]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[6]      clk (rising)     NA             13.100      10.000       -3.100
+dMem[7]      clk (rising)     NA             13.100      10.000       -3.100
+halfclk      clk (rising)     NA             8.300       10.000       1.700 
+t3           clk (rising)     NA             9.680       10.000       0.320 
+============================================================================
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                Arrival           
+Instance     Type      Pin       Net            Time        Slack 
+                                                                  
+------------------------------------------------------------------
+wrCycle      dfe3c     q         wrCycle        5.300       -3.100
+state[0]     df1       q         state_c[0]     4.100       -0.200
+state[1]     df1       q         state[1]       2.500       1.400 
+wrVga        Port      wrVga     wrVga          0.000       1.960 
+_csMem       dfe4f     q         _csMem_c       1.080       4.720 
+_oeMem       dfe4f     q         _oeMem_c       1.080       4.720 
+_weMem       dfe4f     q         _weMem_c       1.080       4.720 
+dCga[0]      dfe3c     q         dCga_c[0]      1.080       4.720 
+dCga[1]      dfe3c     q         dCga_c[1]      1.080       4.720 
+dCga[2]      dfe3c     q         dCga_c[2]      1.080       4.720 
+==================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                Required           
+Instance      Type      Pin         Net         Time         Slack 
+                                                                   
+-------------------------------------------------------------------
+dMem[7:0]     Port      dMem[0]     dMem[0]     10.000       -3.100
+dMem[7:0]     Port      dMem[1]     dMem[1]     10.000       -3.100
+dMem[7:0]     Port      dMem[2]     dMem[2]     10.000       -3.100
+dMem[7:0]     Port      dMem[3]     dMem[3]     10.000       -3.100
+dMem[7:0]     Port      dMem[4]     dMem[4]     10.000       -3.100
+dMem[7:0]     Port      dMem[5]     dMem[5]     10.000       -3.100
+dMem[7:0]     Port      dMem[6]     dMem[6]     10.000       -3.100
+dMem[7:0]     Port      dMem[7]     dMem[7]     10.000       -3.100
+dCga[0]       dfe3c     e           rdBuf6      7.500        -1.400
+dCga[1]       dfe3c     e           rdBuf6      7.500        -1.400
+===================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  13.100
+    = Slack (critical) :                  -3.100
+
+    Starting point:                       wrCycle / q
+    Ending point:                         dMem[7:0] / dMem[0]
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising]
+
+Instance / Net               Pin         Pin               Arrival     Fan
+Name               Type      Name        Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+wrCycle            dfe3c     q           Out     5.300     5.300          
+wrCycle            Net                                                 13 
+wrCycle_i          cm8       s00         In                5.300          
+wrCycle_i          cm8       y           Out     3.600     8.900          
+wrCycle_i          Net                                                 8  
+dMem_pad[0]        bibuf     e           In                8.900          
+dMem_pad[0]        bibuf     pad         Out     4.200     13.100         
+dMem[0]            Net                                                 1  
+dMem[7:0]          Port      dMem[0]     Out               13.100         
+==========================================================================
+
+
+Path information for path number 2: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  13.100
+    = Slack (critical) :                  -3.100
+
+    Starting point:                       wrCycle / q
+    Ending point:                         dMem[7:0] / dMem[7]
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising]
+
+Instance / Net               Pin         Pin               Arrival     Fan
+Name               Type      Name        Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+wrCycle            dfe3c     q           Out     5.300     5.300          
+wrCycle            Net                                                 13 
+wrCycle_i          cm8       s00         In                5.300          
+wrCycle_i          cm8       y           Out     3.600     8.900          
+wrCycle_i          Net                                                 8  
+dMem_pad[7]        bibuf     e           In                8.900          
+dMem_pad[7]        bibuf     pad         Out     4.200     13.100         
+dMem[7]            Net                                                 1  
+dMem[7:0]          Port      dMem[7]     Out               13.100         
+==========================================================================
+
+
+Path information for path number 3: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  13.100
+    = Slack (critical) :                  -3.100
+
+    Starting point:                       wrCycle / q
+    Ending point:                         dMem[7:0] / dMem[6]
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising]
+
+Instance / Net               Pin         Pin               Arrival     Fan
+Name               Type      Name        Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+wrCycle            dfe3c     q           Out     5.300     5.300          
+wrCycle            Net                                                 13 
+wrCycle_i          cm8       s00         In                5.300          
+wrCycle_i          cm8       y           Out     3.600     8.900          
+wrCycle_i          Net                                                 8  
+dMem_pad[6]        bibuf     e           In                8.900          
+dMem_pad[6]        bibuf     pad         Out     4.200     13.100         
+dMem[6]            Net                                                 1  
+dMem[7:0]          Port      dMem[6]     Out               13.100         
+==========================================================================
+
+
+Path information for path number 4: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  13.100
+    = Slack (critical) :                  -3.100
+
+    Starting point:                       wrCycle / q
+    Ending point:                         dMem[7:0] / dMem[5]
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising]
+
+Instance / Net               Pin         Pin               Arrival     Fan
+Name               Type      Name        Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+wrCycle            dfe3c     q           Out     5.300     5.300          
+wrCycle            Net                                                 13 
+wrCycle_i          cm8       s00         In                5.300          
+wrCycle_i          cm8       y           Out     3.600     8.900          
+wrCycle_i          Net                                                 8  
+dMem_pad[5]        bibuf     e           In                8.900          
+dMem_pad[5]        bibuf     pad         Out     4.200     13.100         
+dMem[5]            Net                                                 1  
+dMem[7:0]          Port      dMem[5]     Out               13.100         
+==========================================================================
+
+
+Path information for path number 5: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  13.100
+    = Slack (critical) :                  -3.100
+
+    Starting point:                       wrCycle / q
+    Ending point:                         dMem[7:0] / dMem[1]
+    The start point is clocked by         clk [rising] on pin clk
+    The end   point is clocked by         clk [rising]
+
+Instance / Net               Pin         Pin               Arrival     Fan
+Name               Type      Name        Dir     Delay     Time        Out
+--------------------------------------------------------------------------
+wrCycle            dfe3c     q           Out     5.300     5.300          
+wrCycle            Net                                                 13 
+wrCycle_i          cm8       s00         In                5.300          
+wrCycle_i          cm8       y           Out     3.600     8.900          
+wrCycle_i          Net                                                 8  
+dMem_pad[1]        bibuf     e           In                8.900          
+dMem_pad[1]        bibuf     pad         Out     4.200     13.100         
+dMem[1]            Net                                                 1  
+dMem[7:0]          Port      dMem[1]     Out               13.100         
+==========================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with worst slack 
+********************************
+
+                                                Arrival          
+Instance       Type     Pin         Net         Time        Slack
+                                                                 
+-----------------------------------------------------------------
+aCga[15:0]     Port     aCga[0]     aCga[0]     0.000       2.840
+aCga[15:0]     Port     aCga[1]     aCga[1]     0.000       2.840
+aCga[15:0]     Port     aCga[2]     aCga[2]     0.000       2.840
+aCga[15:0]     Port     aCga[3]     aCga[3]     0.000       2.840
+aCga[15:0]     Port     aCga[4]     aCga[4]     0.000       2.840
+aCga[15:0]     Port     aCga[5]     aCga[5]     0.000       2.840
+aCga[15:0]     Port     aCga[6]     aCga[6]     0.000       2.840
+aCga[15:0]     Port     aCga[7]     aCga[7]     0.000       2.840
+aVga[15:0]     Port     aVga[0]     aVga[0]     0.000       2.840
+aVga[15:0]     Port     aVga[1]     aVga[1]     0.000       2.840
+=================================================================
+
+
+Ending Points with worst slack 
+******************************
+
+                                                Required          
+Instance       Type     Pin         Net         Time         Slack
+                                                                  
+------------------------------------------------------------------
+aMem[15:0]     Port     aMem[0]     aMem[0]     10.000       2.840
+aMem[15:0]     Port     aMem[1]     aMem[1]     10.000       2.840
+aMem[15:0]     Port     aMem[2]     aMem[2]     10.000       2.840
+aMem[15:0]     Port     aMem[3]     aMem[3]     10.000       2.840
+aMem[15:0]     Port     aMem[4]     aMem[4]     10.000       2.840
+aMem[15:0]     Port     aMem[5]     aMem[5]     10.000       2.840
+aMem[15:0]     Port     aMem[6]     aMem[6]     10.000       2.840
+aMem[15:0]     Port     aMem[7]     aMem[7]     10.000       2.840
+==================================================================
+
+
+
+Worst Paths Information
+***********************
+
+
+Path information for path number 1: 
+    = Required time:                      10.000
+
+    - Propagation  time:                  7.160
+    = Slack (non-critical) :              2.840
+
+    Starting point:                       aCga[15:0] / aCga[0]
+    Ending point:                         aMem[15:0] / aMem[0]
+    The start point is clocked by         System [rising]
+    The end   point is clocked by         System [rising]
+
+Instance / Net                Pin         Pin               Arrival     Fan
+Name               Type       Name        Dir     Delay     Time        Out
+---------------------------------------------------------------------------
+aCga[15:0]         Port       aCga[0]     In      0.000     0.000          
+aCga[0]            Net                                                  1  
+aCga_pad[0]        inbuf      pad         In                0.000          
+aCga_pad[0]        inbuf      y           Out     1.580     1.580          
+aCga_c[0]          Net                                                  1  
+G_102              cm8        d0          In                1.580          
+G_102              cm8        y           Out     1.380     2.960          
+N_141_c            Net                                                  1  
+aMem_pad[0]        outbuf     d           In                2.960          
+aMem_pad[0]        outbuf     pad         Out     4.200     7.160          
+aMem[0]            Net                                                  1  
+aMem[15:0]         Port       aMem[0]     Out               7.160          
+===========================================================================
+
+
+
+
+##### END TIMING REPORT #####
+
+@N|Synopsys Constraint File time units will use default value of 1ns 
+@N|Synopsys Constraint File capacitance units will use default value of 1pF 
+Mapper successful!
+Process took 4.39 seconds realtime, 4.44 seconds cputime
